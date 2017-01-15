@@ -92,6 +92,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-1",
@@ -102,7 +103,7 @@
 									"patching_rect" : [ 34.0, 148.0, 519.0, 47.0 ],
 									"presentation_rect" : [ 37.0, 148.0, 0.0, 0.0 ],
 									"style" : "",
-									"text" : "associer 2 événement :\n- un est nécessairement master chan de l'autre (ID = 0)\n- "
+									"text" : "associer 2 événement :\n- un est nécessairement master chan de l'autre (ID = 0)\n- celui en ID 0 est forcément modulateur (state=2)"
 								}
 
 							}
@@ -831,6 +832,33 @@
 										"subpatcher_template" : "",
 										"boxes" : [ 											{
 												"box" : 												{
+													"format" : 6,
+													"id" : "obj-15",
+													"maxclass" : "flonum",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "", "bang" ],
+													"parameter_enable" : 0,
+													"patching_rect" : [ 118.0, 166.0, 50.0, 22.0 ],
+													"style" : ""
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-10",
+													"maxclass" : "message",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 92.0, 194.060608, 102.0, 22.0 ],
+													"style" : "",
+													"text" : "0 pitchoffset 0 $1"
+												}
+
+											}
+, 											{
+												"box" : 												{
 													"id" : "obj-3",
 													"maxclass" : "message",
 													"numinlets" : 2,
@@ -1013,6 +1041,15 @@
 											}
 , 											{
 												"patchline" : 												{
+													"destination" : [ "obj-29", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-10", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
 													"destination" : [ "obj-9", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
@@ -1035,6 +1072,15 @@
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-14", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-10", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-15", 0 ]
 												}
 
 											}
@@ -2991,7 +3037,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 617.5, 446.697632, 140.0, 22.0 ],
 									"style" : "",
-									"text" : "9095 state 2"
+									"text" : "9185 state 0"
 								}
 
 							}
