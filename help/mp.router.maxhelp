@@ -38,6 +38,19 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontsize" : 18.0,
+					"id" : "obj-17",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 156.0, 309.0, 223.0, 29.0 ],
+					"style" : "",
+					"text" : "mp.uID.maker @min 9000"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-4",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -81,6 +94,20 @@
 						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-1",
+									"linecount" : 3,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 34.0, 148.0, 519.0, 47.0 ],
+									"presentation_rect" : [ 37.0, 148.0, 0.0, 0.0 ],
+									"style" : "",
+									"text" : "associer 2 événement :\n- un est nécessairement master chan de l'autre (ID = 0)\n- "
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-2",
 									"linecount" : 2,
 									"maxclass" : "comment",
@@ -97,7 +124,6 @@
 					}
 ,
 					"patching_rect" : [ 446.0, 262.0, 62.0, 22.0 ],
-					"presentation_rect" : [ 447.0, 262.0, 0.0, 0.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -156,11 +182,24 @@
 						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-1",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 64.0, 80.0, 150.0, 20.0 ],
+									"presentation_rect" : [ 64.0, 80.0, 0.0, 0.0 ],
+									"style" : "",
+									"text" : "clear child dict if steal"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-2",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 173.0, 164.0, 150.0, 20.0 ],
+									"patching_rect" : [ 64.0, 37.0, 150.0, 20.0 ],
 									"style" : "",
 									"text" : "clear child dict if steal"
 								}
@@ -200,7 +239,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 68.0, 79.0, 836.0, 635.0 ],
+						"rect" : [ 551.0, 226.0, 836.0, 635.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -228,18 +267,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"boxes" : [ 							{
-								"box" : 								{
-									"id" : "obj-15",
-									"maxclass" : "newobj",
-									"numinlets" : 0,
-									"numoutlets" : 0,
-									"patching_rect" : [ 652.0, 68.0, 151.0, 22.0 ],
-									"style" : "",
-									"text" : "mp.uID.maker @min 9000"
-								}
-
-							}
-, 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -434,7 +461,7 @@
 											"modernui" : 1
 										}
 ,
-										"rect" : [ 930.0, 218.0, 490.0, 558.0 ],
+										"rect" : [ 916.0, 218.0, 490.0, 558.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -775,7 +802,7 @@
 											"modernui" : 1
 										}
 ,
-										"rect" : [ 93.0, 364.0, 390.0, 297.0 ],
+										"rect" : [ 95.0, 135.0, 390.0, 297.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -803,6 +830,19 @@
 										"style" : "",
 										"subpatcher_template" : "",
 										"boxes" : [ 											{
+												"box" : 												{
+													"id" : "obj-3",
+													"maxclass" : "message",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 92.0, 137.060608, 166.0, 22.0 ],
+													"style" : "",
+													"text" : "0 pitchoffset 0 7, 0 state 2"
+												}
+
+											}
+, 											{
 												"box" : 												{
 													"id" : "obj-14",
 													"maxclass" : "newobj",
@@ -916,7 +956,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 73.0, 133.060608, 166.0, 22.0 ],
+													"patching_rect" : [ 73.0, 93.060608, 166.0, 22.0 ],
 													"style" : "",
 													"text" : "0 pitchoffset -12 12, 0 state 2"
 												}
@@ -929,7 +969,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 61.0, 99.060608, 148.0, 22.0 ],
+													"patching_rect" : [ 61.0, 59.060608, 148.0, 22.0 ],
 													"style" : "",
 													"text" : "0 pitchoffset 0 0, 0 state 2"
 												}
@@ -942,7 +982,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 43.0, 68.0, 172.0, 22.0 ],
+													"patching_rect" : [ 43.0, 28.0, 172.0, 22.0 ],
 													"style" : "",
 													"text" : "0 pitchoffset -0.1 0.1, 0 state 2"
 												}
@@ -1004,6 +1044,15 @@
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-2", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-29", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-3", 0 ]
 												}
 
 											}
@@ -1096,7 +1145,7 @@
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 133.5, 313.0, 232.0, 22.0 ],
 									"style" : "",
-									"text" : "mp.note2chord 4 @size 2"
+									"text" : "mp.note2chord 20 @size 2"
 								}
 
 							}
@@ -2842,7 +2891,7 @@
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 50.0, 127.0, 129.0, 22.0 ],
 													"style" : "",
-													"text" : "ID 0, pitch $1, state 2"
+													"text" : "0 pitch $1, 0 state 2"
 												}
 
 											}
@@ -2902,9 +2951,9 @@
 									"numinlets" : 3,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 133.5, 250.0, 147.0, 22.0 ],
+									"patching_rect" : [ 133.5, 250.0, 155.0, 22.0 ],
 									"style" : "",
-									"text" : "mp.note2chord 2 @size 2"
+									"text" : "mp.note2chord 10 @size 2"
 								}
 
 							}
@@ -2942,7 +2991,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 617.5, 446.697632, 140.0, 22.0 ],
 									"style" : "",
-									"text" : "9821 state 0"
+									"text" : "9095 state 2"
 								}
 
 							}
@@ -4604,7 +4653,7 @@
 									"outlettype" : [ "signal", "" ],
 									"patching_rect" : [ 133.5, 413.697632, 624.0, 29.0 ],
 									"style" : "",
-									"text" : "mp.demoSynth 16 @parentmode 1"
+									"text" : "mp.demoSynth 40 @parentmode 1"
 								}
 
 							}
