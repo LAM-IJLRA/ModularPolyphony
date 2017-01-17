@@ -121,13 +121,13 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 537.0, 500.0, 120.0, 19.0 ],
+					"patching_rect" : [ 537.0, 500.0, 131.0, 19.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0
 					}
 ,
 					"style" : "",
-					"text" : "coll #0.activeCursors"
+					"text" : "coll #0.activeCursors 1"
 				}
 
 			}
@@ -386,22 +386,6 @@
 			}
 , 			{
 				"box" : 				{
-					"color" : [ 1.0, 0.52549, 0.05098, 1.0 ],
-					"fontname" : "Verdana",
-					"fontsize" : 9.0,
-					"id" : "obj-3",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 52.0, 64.0, 69.0, 19.0 ],
-					"style" : "",
-					"text" : "deferlow"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontface" : 0,
 					"fontname" : "Verdana",
 					"fontsize" : 9.0,
@@ -651,13 +635,13 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 113.0, 321.0, 100.0, 19.0 ],
+					"patching_rect" : [ 113.0, 321.0, 118.0, 19.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0
 					}
 ,
 					"style" : "",
-					"text" : "coll add-cursor 1"
+					"text" : "coll #0.add-cursor 1"
 				}
 
 			}
@@ -730,13 +714,13 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 113.0, 413.0, 100.0, 19.0 ],
+					"patching_rect" : [ 113.0, 413.0, 118.0, 19.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0
 					}
 ,
 					"style" : "",
-					"text" : "coll add-cursor 1"
+					"text" : "coll #0.add-cursor 1"
 				}
 
 			}
@@ -779,13 +763,13 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 352.0, 448.0, 100.0, 19.0 ],
+					"patching_rect" : [ 352.0, 448.0, 118.0, 19.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0
 					}
 ,
 					"style" : "",
-					"text" : "coll add-cursor 1"
+					"text" : "coll #0.add-cursor 1"
 				}
 
 			}
@@ -1137,15 +1121,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-21", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-3", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1263,7 +1238,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-3", 0 ],
+					"destination" : [ "obj-21", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-39", 0 ]
