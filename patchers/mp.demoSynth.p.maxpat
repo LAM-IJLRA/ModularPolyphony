@@ -140,7 +140,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 432.0, 479.0, 50.0, 22.0 ],
 					"style" : "",
-					"text" : "mute 0"
+					"text" : "mute 1"
 				}
 
 			}

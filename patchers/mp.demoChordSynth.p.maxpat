@@ -191,9 +191,9 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 94.666626, 261.26947, 128.0, 22.0 ],
+									"patching_rect" : [ 94.666626, 261.26947, 119.0, 22.0 ],
 									"style" : "",
-									"text" : "cutoff $1, state 2, ID 0"
+									"text" : "0 cutoff $1, 0 state 2"
 								}
 
 							}
@@ -793,14 +793,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
 					"id" : "obj-49",
-					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "signal", "", "" ],
-					"patching_rect" : [ 69.0, 394.0, 311.0, 40.0 ],
+					"patching_rect" : [ 69.0, 394.0, 301.0, 24.0 ],
 					"style" : "",
-					"text" : "poly~ mp.demoSynth.p 4 args #0.pppContext"
+					"text" : "poly~ mp.demoSynth.p 4 args #0.mpContext"
 				}
 
 			}
@@ -816,7 +815,7 @@
 					"outlettype" : [ "", "bang" ],
 					"patching_rect" : [ 69.0, 323.302368, 388.0, 22.0 ],
 					"style" : "",
-					"text" : "mp.router #0.pppContext @steal 1 @automute 0"
+					"text" : "mp.router #0.mpContext @steal 1 @automute 0"
 				}
 
 			}
@@ -829,10 +828,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 643.0, 439.0, 37.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"style" : "",
 					"text" : "out 2"
 				}
@@ -847,10 +842,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 454.0, 439.0, 37.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"style" : "",
 					"text" : "out 1"
 				}
@@ -865,6 +856,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 69.0, 444.410522, 44.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"style" : "",
 					"text" : "out~ 1"
 				}
@@ -880,6 +875,10 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 29.0, 47.0, 30.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"style" : "",
 					"text" : "in 1"
 				}
