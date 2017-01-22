@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 127.0, 140.0, 820.0, 417.0 ],
+		"rect" : [ 93.0, 355.0, 820.0, 417.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -3268,7 +3268,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 32.0, 210.0, 807.0, 607.0 ],
+						"rect" : [ 34.0, 210.0, 807.0, 607.0 ],
 						"bgcolor" : [ 0.878431, 0.878431, 0.858824, 1.0 ],
 						"editing_bgcolor" : [ 0.878431, 0.878431, 0.858824, 1.0 ],
 						"bglocked" : 0,
@@ -3297,7 +3297,33 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-14",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 441.0, 518.0, 61.0, 20.0 ],
+									"presentation_rect" : [ 441.0, 519.0, 0.0, 0.0 ],
+									"style" : "",
+									"text" : "Nb arcs"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-6",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 441.0, 455.0, 61.0, 20.0 ],
+									"style" : "",
+									"text" : "Nb points"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"format" : 6,
 									"id" : "obj-69",
@@ -3888,7 +3914,7 @@
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 179.0, 71.0, 50.0, 22.0 ],
 													"style" : "",
-													"text" : "10030"
+													"text" : "9524"
 												}
 
 											}
@@ -4900,7 +4926,7 @@
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 1,
-													"outlettype" : [ "" ],
+													"outlettype" : [ "int" ],
 													"patcher" : 													{
 														"fileversion" : 1,
 														"appversion" : 														{
@@ -5250,7 +5276,7 @@
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
 																	"numoutlets" : 1,
-																	"outlettype" : [ "int" ],
+																	"outlettype" : [ "" ],
 																	"patcher" : 																	{
 																		"fileversion" : 1,
 																		"appversion" : 																		{
@@ -11338,7 +11364,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 112.5, 188.0, 214.0, 22.0 ],
 									"style" : "",
-									"text" : "999999 0 0.364062 0.439583 0."
+									"text" : "999999 0 0.296875 0.416667 0."
 								}
 
 							}
@@ -11422,7 +11448,7 @@
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 309.0, 131.0, 153.0, 35.0 ],
 													"style" : "",
-													"text" : "999999 0 0.364062 0.439583 0."
+													"text" : "999999 0 0.296875 0.416667 0."
 												}
 
 											}
@@ -14813,7 +14839,7 @@
 											"modernui" : 1
 										}
 ,
-										"rect" : [ 95.0, 135.0, 390.0, 297.0 ],
+										"rect" : [ 95.0, 135.0, 601.0, 302.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -14952,9 +14978,9 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 271.0, 247.060608, 161.0, 22.0 ],
+													"patching_rect" : [ 271.0, 247.060608, 171.0, 22.0 ],
 													"style" : "",
-													"text" : "0 pitchoffset $1 $2, 0 state 2"
+													"text" : "0 pitchoffset $1 0 $2, 0 state 2"
 												}
 
 											}
@@ -15033,9 +15059,9 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 43.0, 28.0, 183.0, 22.0 ],
+													"patching_rect" : [ 43.0, 27.0, 183.0, 22.0 ],
 													"style" : "",
-													"text" : "0 pitchoffset -0.1 0 0.1, 0 state 2"
+													"text" : "0 pitchoffset -0.2 0 0.2, 0 state 2"
 												}
 
 											}
@@ -15330,7 +15356,7 @@
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 88.0, 273.0, 50.0, 35.0 ],
 													"style" : "",
-													"text" : "13366 state 0"
+													"text" : "11 state 0"
 												}
 
 											}
@@ -16078,7 +16104,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 617.5, 446.697632, 140.0, 22.0 ],
 									"style" : "",
-									"text" : "9103 state 0"
+									"text" : "9495 state 0"
 								}
 
 							}
@@ -18715,9 +18741,9 @@
 																					"numinlets" : 2,
 																					"numoutlets" : 1,
 																					"outlettype" : [ "" ],
-																					"patching_rect" : [ 134.0, 149.702087, 47.0, 22.0 ],
+																					"patching_rect" : [ 134.0, 149.702087, 29.5, 22.0 ],
 																					"style" : "",
-																					"text" : "0 4 5 7"
+																					"text" : "0 7"
 																				}
 
 																			}
@@ -18795,10 +18821,19 @@
 																			}
 , 																			{
 																				"patchline" : 																				{
-																					"destination" : [ "obj-10", 0 ],
+																					"destination" : [ "obj-1", 0 ],
 																					"disabled" : 0,
 																					"hidden" : 0,
 																					"source" : [ "obj-18", 0 ]
+																				}
+
+																			}
+, 																			{
+																				"patchline" : 																				{
+																					"destination" : [ "obj-23", 0 ],
+																					"disabled" : 0,
+																					"hidden" : 0,
+																					"source" : [ "obj-2", 0 ]
 																				}
 
 																			}
@@ -24476,7 +24511,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 670.0, 253.0, 736.0, 496.0 ],
+						"rect" : [ 173.0, -739.0, 736.0, 496.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -27262,8 +27297,8 @@
 		"lines" : [  ],
 		"parameters" : 		{
 			"obj-50::obj-87" : [ "live.gain~[2]", "live.gain~", 0 ],
-			"obj-48::obj-43" : [ "live.gain~[3]", "live.gain~", 0 ],
 			"obj-9::obj-24::obj-25::obj-49" : [ "toggle", "toggle", 0 ],
+			"obj-48::obj-43" : [ "live.gain~[3]", "live.gain~", 0 ],
 			"obj-2::obj-43" : [ "live.gain~[6]", "live.gain~", 0 ]
 		}
 ,
