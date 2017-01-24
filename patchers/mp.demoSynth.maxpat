@@ -45,7 +45,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 472.0, 87.0, 131.0, 22.0 ],
 					"style" : "",
-					"text" : "routepass parentmode"
+					"text" : "routepass guestmode"
 				}
 
 			}
@@ -123,7 +123,7 @@
 					"outlettype" : [ "signal", "", "" ],
 					"patching_rect" : [ 44.0, 220.589478, 370.0, 24.0 ],
 					"style" : "",
-					"text" : "poly~ mp.demoSynth.p 1 args #0.pppContext"
+					"text" : "poly~ mp.demoSynth.p 1 args #0.mpContext"
 				}
 
 			}
@@ -551,7 +551,7 @@
 					"outlettype" : [ "", "bang" ],
 					"patching_rect" : [ 44.0, 142.302368, 324.0, 22.0 ],
 					"style" : "",
-					"text" : "mp.router #0.pppContext @steal 1  @automute 0"
+					"text" : "mp.router #0.mpContext @steal 1 @automute 0"
 				}
 
 			}
@@ -720,15 +720,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-49", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-48", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-49", 2 ]
 				}
 
 			}

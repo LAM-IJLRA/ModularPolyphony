@@ -375,7 +375,7 @@
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 24.0, 71.0, 505.666687, 22.0 ],
 					"style" : "",
-					"text" : "mp.muter #1 @automute 0"
+					"text" : "mp.muter.se #1 @automute 0"
 				}
 
 			}
@@ -1481,19 +1481,10 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-4", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-44", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-49", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 398.5, 134.0, 276.166656, 134.0 ],
+					"midpoints" : [ 398.5, 131.0, 276.166656, 131.0 ],
 					"source" : [ "obj-44", 1 ]
 				}
 

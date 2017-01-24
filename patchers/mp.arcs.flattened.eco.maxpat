@@ -185,14 +185,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
 					"id" : "obj-15",
-					"linecount" : 2,
 					"maxclass" : "newobj",
-					"numinlets" : 1,
+					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 103.666656, 298.589478, 287.0, 40.0 ],
+					"patching_rect" : [ 103.666656, 297.589478, 372.0, 24.0 ],
 					"style" : "",
-					"text" : "poly~ mp.arcs2.eco.p 10 args #0.mpContext"
+					"text" : "poly~ mp.arcs2.eco.p 10 args #0.mpContext #2"
 				}
 
 			}
@@ -640,6 +639,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-15", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-16", 1 ]
 				}
 
 			}
