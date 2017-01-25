@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 59.0, 104.0, 640.0, 480.0 ],
+		"rect" : [ 532.0, 479.0, 640.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -191,7 +191,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 103.666656, 296.589478, 400.0, 24.0 ],
 					"style" : "",
-					"text" : "poly~ mp.gl.segments.p 1 args #0.mpContext #2"
+					"text" : "poly~ mp.2Dsegments.p 1 args #0.mpContext #2"
 				}
 
 			}

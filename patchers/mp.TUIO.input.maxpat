@@ -499,22 +499,6 @@
 			}
 , 			{
 				"box" : 				{
-					"color" : [ 0.278431, 0.921569, 0.639216, 1.0 ],
-					"fontname" : "Verdana",
-					"fontsize" : 9.0,
-					"id" : "obj-57",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 106.0, 167.0, 139.0, 19.0 ],
-					"style" : "",
-					"text" : "r mmf.interface.monitor.size"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontname" : "Verdana",
 					"fontsize" : 9.0,
 					"id" : "obj-26",
@@ -1566,16 +1550,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-54", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-6", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 115.5, 207.0, 154.5, 207.0 ],
-					"source" : [ "obj-57", 0 ]
 				}
 
 			}
