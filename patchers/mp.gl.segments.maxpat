@@ -45,7 +45,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 490.0, 103.0, 138.0, 22.0 ],
 					"style" : "",
-					"text" : "routepass parentmode"
+					"text" : "routepass guestmode"
 				}
 
 			}
@@ -619,7 +619,7 @@
 					"outlettype" : [ "", "bang" ],
 					"patching_rect" : [ 103.666656, 197.302368, 284.0, 22.0 ],
 					"style" : "",
-					"text" : "mp.router #0.mpContext @steal 1 @automute 0"
+					"text" : "mp.router 5005.mpContext @steal 1 @automute 0"
 				}
 
 			}

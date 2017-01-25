@@ -167,7 +167,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 223.0, 96.0, 22.0 ],
 									"style" : "",
-									"text" : "pack 42 parents"
+									"text" : "pack 42 guests"
 								}
 
 							}
@@ -392,7 +392,7 @@
 					}
 ,
 					"style" : "",
-					"text" : "p add-parents"
+					"text" : "p add-to-guests"
 				}
 
 			}
@@ -446,7 +446,7 @@
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 144.0, 136.0, 220.0, 22.0 ],
 					"style" : "",
-					"text" : "route pitchoffset parents"
+					"text" : "route pitchoffset guests"
 				}
 
 			}
@@ -486,10 +486,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 433.0, 54.0, 30.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"style" : "",
 					"text" : "in 2"
 				}
@@ -739,10 +735,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 165.25, 357.0, 37.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"style" : "",
 					"text" : "out 1"
 				}
@@ -758,6 +750,10 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 29.0, 36.0, 30.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"style" : "",
 					"text" : "in 1"
 				}
