@@ -553,7 +553,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 301.0, 222.589478, 151.0, 19.0 ],
 					"style" : "",
-					"text" : "0 1 1 1 1"
+					"text" : "1 1 1 1 1"
 				}
 
 			}
@@ -709,6 +709,25 @@
 					"source" : [ "obj-49", 1 ]
 				}
 
+			}
+ ],
+		"styles" : [ 			{
+				"name" : "AudioStatus_Menu",
+				"default" : 				{
+					"bgfillcolor" : 					{
+						"type" : "color",
+						"color" : [ 0.294118, 0.313726, 0.337255, 1 ],
+						"color1" : [ 0.454902, 0.462745, 0.482353, 0.0 ],
+						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39,
+						"autogradient" : 0
+					}
+
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
 			}
  ]
 	}
