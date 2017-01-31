@@ -94,14 +94,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-46",
-					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 41.609894, 154.302368, 287.0, 35.0 ],
+					"patching_rect" : [ 41.609894, 154.302368, 280.0, 22.0 ],
 					"style" : "",
-					"text" : "mp.router #0.pppContext @steal 0 @automute 1"
+					"text" : "mp.router #0.mpContext @steal 0 @automute 1"
 				}
 
 			}
@@ -168,7 +167,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 41.609894, 210.0, 430.390106, 22.0 ],
 					"style" : "",
-					"text" : "poly~ mp.slide.p #1 @args #0.pppContext"
+					"text" : "poly~ mp.slide.p #1 @args #0.mpContext"
 				}
 
 			}
