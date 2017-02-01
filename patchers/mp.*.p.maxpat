@@ -354,7 +354,7 @@
 					"outlettype" : [ "float" ],
 					"patching_rect" : [ 121.5, 156.0, 73.5, 22.0 ],
 					"style" : "",
-					"text" : "+ 0."
+					"text" : "* 1."
 				}
 
 			}
