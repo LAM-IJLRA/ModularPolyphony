@@ -1,1 +1,1 @@
-mp.router, "Router for modular polyphony.";mp.super_module, "A modular polyphony lib";mp.uID.maker, "Centralized unique ID maker.";
+mp.router, "Router for modular polyphony.";mp.super_module, "A modular polyphony lib";mp.uID, "Centralized unique ID caller.";mp.uID.maker, "Centralized unique ID maker.";
