@@ -44,7 +44,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 547.5, 387.287109, 47.0, 22.0 ],
-					"presentation_rect" : [ 549.5, 387.287109, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "state 2"
 				}
@@ -58,7 +57,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 500.0, 444.287109, 66.5, 22.0 ],
-					"presentation_rect" : [ 502.0, 444.287109, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "zl join"
 				}
@@ -72,7 +70,6 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "bang", "bang", "bang", "" ],
 					"patching_rect" : [ 500.0, 342.0, 118.5, 22.0 ],
-					"presentation_rect" : [ 502.0, 342.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "t b b b l"
 				}
@@ -86,7 +83,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 500.0, 412.287109, 43.0, 22.0 ],
-					"presentation_rect" : [ 502.0, 412.287109, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "int"
 				}
@@ -100,7 +96,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 524.0, 288.0, 56.0, 22.0 ],
-					"presentation_rect" : [ 526.0, 288.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "+ 0"
 				}
@@ -114,7 +109,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 561.0, 258.0, 32.0, 22.0 ],
-					"presentation_rect" : [ 563.0, 258.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "* 16"
 				}
@@ -128,7 +122,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 500.0, 313.5, 74.0, 22.0 ],
-					"presentation_rect" : [ 502.0, 313.5, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "touch $1"
 				}
@@ -202,15 +195,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-29",
-					"linecount" : 3,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 34.0, 300.0, 86.0, 49.0 ],
-					"presentation_rect" : [ 245.0, 262.0, 0.0, 0.0 ],
+					"patching_rect" : [ 34.0, 322.0, 215.0, 22.0 ],
 					"style" : "",
-					"text" : "$1 pitch $2, $1 velocity $3, $1 state $2"
+					"text" : "$1 pitch $2, $1 velocity $3, $1 state $4"
 				}
 
 			}
@@ -561,7 +552,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-44",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -976,7 +967,9 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [  ],
+		"autosave" : 0
 	}
 
 }
