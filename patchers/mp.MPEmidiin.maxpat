@@ -38,13 +38,38 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-37",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1175.0, 139.0, 50.0, 22.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-11",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 976.0, 139.0, 50.0, 22.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-39",
 					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 14.0, 232.0, 162.0, 47.0 ],
-					"presentation_rect" : [ 16.0, 256.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "make uID for channels (to distinguish from other MIDI devices)"
 				}
@@ -71,9 +96,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1127.0, 319.0, 164.0, 35.0 ],
-					"presentation_rect" : [ 1127.0, 347.0, 0.0, 0.0 ],
 					"style" : "",
-					"text" : "$4 bend_value $1, $4 bend_channel $3, $4 state 2"
+					"text" : "$3 bend_value $1, $3 bend_channel $2, $3 state 2"
 				}
 
 			}
@@ -85,7 +109,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
 					"patching_rect" : [ 1175.0, 212.0, 43.0, 22.0 ],
-					"presentation_rect" : [ 1175.0, 240.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "t i i"
 				}
@@ -99,7 +122,6 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 1199.0, 244.0, 129.0, 22.0 ],
-					"presentation_rect" : [ 1199.0, 272.0, 0.0, 0.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0
 					}
@@ -117,7 +139,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1127.0, 278.0, 66.0, 22.0 ],
-					"presentation_rect" : [ 1127.0, 306.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "pack 0 0 0"
 				}
@@ -130,7 +151,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1183.0, 184.0, 89.0, 20.0 ],
-					"presentation_rect" : [ 1183.0, 212.0, 0.0, 0.0 ],
 					"style" : "helpfile_label",
 					"text" : "Control value"
 				}
@@ -147,7 +167,6 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1127.0, 184.0, 53.0, 23.0 ],
-					"presentation_rect" : [ 1127.0, 212.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -175,10 +194,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 928.0, 319.0, 164.0, 35.0 ],
-					"presentation_rect" : [ 928.0, 345.0, 0.0, 0.0 ],
+					"patching_rect" : [ 928.0, 325.5, 176.0, 35.0 ],
 					"style" : "",
-					"text" : "$4 touch_value $1, $4 touch_channel $3, $4 state 2"
+					"text" : "$3 touch_value $1, $3 touch_channel $2, $3 state 2"
 				}
 
 			}
@@ -190,7 +208,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
 					"patching_rect" : [ 976.0, 212.0, 43.0, 22.0 ],
-					"presentation_rect" : [ 976.0, 238.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "t i i"
 				}
@@ -204,7 +221,6 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 1000.0, 244.0, 129.0, 22.0 ],
-					"presentation_rect" : [ 1000.0, 270.0, 0.0, 0.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0
 					}
@@ -234,7 +250,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 984.0, 184.0, 89.0, 20.0 ],
-					"presentation_rect" : [ 984.0, 210.0, 0.0, 0.0 ],
 					"style" : "helpfile_label",
 					"text" : "Control value"
 				}
@@ -251,7 +266,6 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 928.0, 184.0, 53.0, 23.0 ],
-					"presentation_rect" : [ 928.0, 210.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -774,9 +788,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 236.0, 323.0, 147.0, 49.0 ],
+					"patching_rect" : [ 236.0, 325.5, 202.0, 49.0 ],
 					"style" : "",
-					"text" : "$1 pitch $2, $1 velocity $3, $1 channel $5, $1 guest $6, $1 state $4"
+					"text" : "$1 pitch $2, $1 velocity $3, $1 channel $5, $1 guests $6, $1 state $4"
 				}
 
 			}
@@ -1001,6 +1015,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1010,19 +1033,19 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-13", 0 ],
+					"destination" : [ "obj-11", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-14", 0 ]
+					"source" : [ "obj-14", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-3", 0 ],
+					"destination" : [ "obj-13", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-14", 1 ]
+					"source" : [ "obj-14", 0 ]
 				}
 
 			}
@@ -1291,7 +1314,16 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-18", 0 ],
+					"destination" : [ "obj-25", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-36", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-37", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-36", 1 ]
@@ -1300,10 +1332,10 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-25", 0 ],
+					"destination" : [ "obj-18", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-36", 0 ]
+					"source" : [ "obj-37", 0 ]
 				}
 
 			}
