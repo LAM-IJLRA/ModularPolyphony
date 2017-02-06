@@ -632,9 +632,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.609894, 212.0, 355.390106, 22.0 ],
+					"patching_rect" : [ 41.609894, 216.0, 355.390106, 22.0 ],
 					"style" : "",
-					"text" : "poly~ mp.*.p #1 @args #0.mpContext"
+					"text" : "poly~ mp.round.p #1 @args #0.mpContext"
 				}
 
 			}

@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 535.0, 226.0, 833.0, 487.0 ],
+		"rect" : [ 318.0, 229.0, 833.0, 487.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -593,7 +593,7 @@
 					"outlettype" : [ "", "bang" ],
 					"patching_rect" : [ 41.609894, 154.302368, 294.780212, 22.0 ],
 					"style" : "",
-					"text" : "mp.router #0.mpContext @steal 0 @automute 0"
+					"text" : "mp.router #0.pppContext @steal 0 @automute 0"
 				}
 
 			}
@@ -632,9 +632,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.609894, 212.0, 355.390106, 22.0 ],
+					"patching_rect" : [ 41.609894, 213.0, 355.390106, 22.0 ],
 					"style" : "",
-					"text" : "poly~ mp.*.p #1 @args #0.mpContext"
+					"text" : "poly~ mp.split.p #1 @args #0.pppContext"
 				}
 
 			}
