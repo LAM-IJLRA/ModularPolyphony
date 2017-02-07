@@ -87,9 +87,9 @@
 									"numinlets" : 5,
 									"numoutlets" : 5,
 									"outlettype" : [ "", "", "", "", "" ],
-									"patching_rect" : [ 105.0, 127.391304, 238.0, 22.0 ],
+									"patching_rect" : [ 105.0, 127.391304, 255.0, 22.0 ],
 									"style" : "",
-									"text" : "routepass steal guestmode persistent done"
+									"text" : "routepass steal guestmode permanence done"
 								}
 
 							}
