@@ -18,4 +18,4 @@ Video tutorials here : https://vimeo.com/album/4387798
 
 This library is developped by [Vincent Goudard] (http://vincentgoudard.com).
 
-Thanks to the [Collegium Musiæ] (http://collegium.musicae.sorbonne-universites.fr) and [Lutherie Acoustics Music lab] (http://lam.jussieu.fr) for their support.
+Thanks to the [Collegium Musiæ] (http://collegium.musicae.sorbonne-universites.fr) and [Lutherie Acoustics Music lab] (http://www.lam.jussieu.fr) for their support.
