@@ -55,7 +55,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 263.0, 113.0, 979.0, 673.0 ],
+						"rect" : [ 69.0, 179.0, 979.0, 673.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -92,9 +92,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 62.5, 20.0, 758.0, 74.0 ],
+									"patching_rect" : [ 62.5, 20.0, 773.0, 74.0 ],
 									"style" : "",
-									"text" : "When a new mp-event arrives at a mp-block and declares guests, it allows guests to pass parameters later on.\nBut what if those guests are already active ? There are 2 options depending on the \"@persistent\" argument that we can give to an mp-block:\n- if persistency = 0 (default), the new mp-event will not recover guests and master-ID's last values\n- if persistency = 1, the new mp-event will recover guests and master-ID's last values.\nBeware that since we need to compare timetags for each parameter to send only the last parameter value, this is more CPU-expensive."
+									"text" : "When a new mp-event arrives at a mp-block and declares guests, it allows guests to pass parameters later on.\nBut what if those guests are already active ? There are 2 options depending on the \"@permanence\" argument that we can give to an mp-block:\n- if permanence = 0 (default), the new mp-event will not recover guests and master-ID's last values\n- if permanence = 1, the new mp-event will recover guests and master-ID's last values.\nBeware that since we need to compare timetags for each parameter to send only the last parameter value, this is more CPU-expensive."
 								}
 
 							}
@@ -139,9 +139,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 616.0, 345.0, 173.0, 37.0 ],
+									"patching_rect" : [ 616.0, 345.0, 179.0, 37.0 ],
 									"style" : "",
-									"text" : "3) now set persistency ON and repeat steps 1) and 2)"
+									"text" : "3) now set permanence ON and repeat steps 1) and 2)"
 								}
 
 							}
@@ -49492,17 +49492,17 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-15::obj-87" : [ "live.gain~[13]", "live.gain~", 0 ],
 			"obj-50::obj-87" : [ "live.gain~[2]", "live.gain~", 0 ],
-			"obj-11::obj-87" : [ "live.gain~[12]", "live.gain~", 0 ],
 			"obj-1::obj-87" : [ "live.gain~[8]", "live.gain~", 0 ],
-			"obj-2::obj-43" : [ "live.gain~[6]", "live.gain~", 0 ],
+			"obj-5::obj-43" : [ "live.gain~[7]", "live.gain~", 0 ],
 			"obj-7::obj-43" : [ "live.gain~[14]", "live.gain~", 0 ],
 			"obj-3::obj-87" : [ "live.gain~[11]", "live.gain~", 0 ],
+			"obj-2::obj-43" : [ "live.gain~[6]", "live.gain~", 0 ],
+			"obj-11::obj-87" : [ "live.gain~[12]", "live.gain~", 0 ],
 			"obj-12::obj-14" : [ "live.gain~[10]", "live.gain~", 0 ],
 			"obj-48::obj-43" : [ "live.gain~[3]", "live.gain~", 0 ],
-			"obj-6::obj-43" : [ "live.gain~[5]", "live.gain~", 0 ],
-			"obj-5::obj-43" : [ "live.gain~[7]", "live.gain~", 0 ],
-			"obj-15::obj-87" : [ "live.gain~[13]", "live.gain~", 0 ]
+			"obj-6::obj-43" : [ "live.gain~[5]", "live.gain~", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -49533,6 +49533,12 @@
 				"name" : "mp.muter.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony/patchers",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "lores.gendsp",
+				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony/patchers",
+				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
