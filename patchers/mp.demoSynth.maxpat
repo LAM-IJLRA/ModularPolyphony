@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 198.0, 242.0, 613.0, 372.0 ],
+		"rect" : [ 324.0, 269.0, 613.0, 372.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -173,7 +173,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "signal", "", "" ],
-					"patching_rect" : [ 44.0, 220.589478, 370.0, 24.0 ],
+					"patching_rect" : [ 44.0, 219.589478, 304.0, 24.0 ],
 					"style" : "",
 					"text" : "poly~ mp.demoSynth.p 1 args #0.mpContext"
 				}
@@ -384,7 +384,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 44.0, 141.302368, 203.0, 22.0 ],
+					"patching_rect" : [ 44.0, 141.302368, 204.0, 22.0 ],
 					"style" : "",
 					"text" : "mp.router #0.mpContext @steal 1"
 				}
@@ -401,7 +401,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 263.0, 262.089478, 151.0, 19.0 ],
 					"style" : "",
-					"text" : "18"
+					"text" : "17"
 				}
 
 			}
