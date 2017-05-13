@@ -4,8 +4,8 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 3,
-			"revision" : 2,
-			"architecture" : "x86",
+			"revision" : 3,
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
@@ -194,8 +194,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 2,
-							"architecture" : "x86",
+							"revision" : 3,
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -411,8 +411,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 2,
-							"architecture" : "x86",
+							"revision" : 3,
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -604,7 +604,7 @@
 					"outlettype" : [ "", "bang" ],
 					"patching_rect" : [ 44.0, 97.302368, 304.0, 22.0 ],
 					"style" : "",
-					"text" : "mp.router #0.mpContext @steal 1 @automute 0"
+					"text" : "mp.router #0.mpContext @steal 1 @automute 1"
 				}
 
 			}
