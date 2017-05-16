@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 511.0, 322.0, 707.0, 633.0 ],
+		"rect" : [ 188.0, 174.0, 707.0, 633.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -1018,7 +1018,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 59.0, 104.0, 227.0, 201.0 ],
+						"rect" : [ 59.0, 104.0, 340.0, 207.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1076,11 +1076,10 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-13",
-									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 93.0, 116.5, 103.0, 22.0 ],
+									"patching_rect" : [ 93.0, 116.5, 123.0, 22.0 ],
 									"style" : "",
 									"text" : "s #0.permanence"
 								}
@@ -1660,6 +1659,18 @@
 						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-99",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 104.0, 37.0, 177.0, 20.0 ],
+									"style" : "",
+									"text" : "avoid badly formatted message"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-3",
 									"maxclass" : "message",
 									"numinlets" : 2,
@@ -1765,6 +1776,25 @@
 								}
 
 							}
+ ],
+						"styles" : [ 							{
+								"name" : "AudioStatus_Menu",
+								"default" : 								{
+									"bgfillcolor" : 									{
+										"type" : "color",
+										"color" : [ 0.294118, 0.313726, 0.337255, 1 ],
+										"color1" : [ 0.454902, 0.462745, 0.482353, 0.0 ],
+										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+										"angle" : 270.0,
+										"proportion" : 0.39,
+										"autogradient" : 0
+									}
+
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
  ]
 					}
 ,
@@ -1792,18 +1822,6 @@
 					"patching_rect" : [ 193.0, 140.5, 98.0, 22.0 ],
 					"style" : "",
 					"text" : "prepend guests"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-99",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 104.0, 37.0, 177.0, 20.0 ],
-					"style" : "",
-					"text" : "avoid badly formatted message"
 				}
 
 			}
@@ -3268,7 +3286,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 373.100006, 197.693588, 117.0, 22.0 ],
+									"patching_rect" : [ 373.100006, 197.693588, 119.0, 22.0 ],
 									"style" : "",
 									"text" : "r #0.permanence"
 								}
@@ -3283,7 +3301,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 373.100006, 249.0, 133.0, 22.0 ],
 									"style" : "",
-									"text" : "gate 1 0"
+									"text" : "gate 1 1"
 								}
 
 							}
@@ -4426,7 +4444,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "list", "", "", "" ],
 									"patching_rect" : [ 10.0, 91.0, 155.0, 358.0 ],
-									"rows" : 16
+									"rows" : 20
 								}
 
 							}
@@ -6544,6 +6562,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-18",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 4,
@@ -7710,6 +7729,7 @@
 , 											{
 												"box" : 												{
 													"id" : "obj-8",
+													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 4,
@@ -9250,7 +9270,7 @@
 																	"numinlets" : 0,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 69.0, 69.0, 117.0, 22.0 ],
+																	"patching_rect" : [ 69.0, 69.0, 119.0, 22.0 ],
 																	"style" : "",
 																	"text" : "r #0.permanence"
 																}
