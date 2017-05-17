@@ -1101,7 +1101,6 @@
 									}
 ,
 									"patching_rect" : [ 110.5, 246.0, 84.0, 22.0 ],
-									"presentation_rect" : [ 685.5, 429.0, 0.0, 0.0 ],
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
@@ -1774,7 +1773,6 @@
 									}
 ,
 									"patching_rect" : [ 198.5, 246.0, 78.0, 22.0 ],
-									"presentation_rect" : [ 595.5, 427.0, 0.0, 0.0 ],
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
@@ -4082,7 +4080,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-90", 0 ],
-									"midpoints" : [ 57.0, 437.0, 121.0, 448.0 ],
+									"midpoints" : [ 57.0, 437.0, 120.0, 448.0 ],
 									"order" : 0,
 									"source" : [ "obj-3", 0 ]
 								}
@@ -4184,7 +4182,6 @@
 					}
 ,
 					"patching_rect" : [ 524.0, 255.501343, 134.0, 22.0 ],
-					"presentation_rect" : [ 678.0, 223.501343, 0.0, 0.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -46905,6 +46902,18 @@
 						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-8",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 78.0, 283.0, 34.0, 22.0 ],
+									"style" : "",
+									"text" : "print"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"bgcolor" : [ 0.646639, 0.821777, 0.854593, 1.0 ],
 									"fontname" : "Avenir Next Bold",
 									"fontsize" : 12.0,
@@ -48930,7 +48939,6 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 290.0, 73.0, 30.0, 30.0 ],
-													"presentation_rect" : [ 210.0, 67.0, 0.0, 0.0 ],
 													"style" : ""
 												}
 
@@ -50016,6 +50024,14 @@
 								"patchline" : 								{
 									"destination" : [ "obj-6", 0 ],
 									"order" : 0,
+									"source" : [ "obj-10", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-8", 0 ],
+									"order" : 2,
 									"source" : [ "obj-10", 0 ]
 								}
 
@@ -51745,7 +51761,7 @@
 			}
 , 			{
 				"name" : "mp.id2color.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/WM.lib/patchers",
+				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
