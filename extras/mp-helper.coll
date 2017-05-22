@@ -1,1 +1,1 @@
-mp.router, "Router for modular polyphony.";mp.super_module, "A modular polyphony lib";mp.uID, "Centralized unique ID caller.";mp.uID.maker, "Centralized unique ID maker.";
+"Modular Polyphony", "Examples of modular polyphonic patching.";"Modular Polyphony : examples", "A step-by-step guide to start using the MP-library";mp.router, "Router for modular polyphony.";mp.super_module, "A modular polyphony lib";mp.uID, "Centralized unique ID caller.";mp.uID.maker, "Centralized unique ID maker.";
