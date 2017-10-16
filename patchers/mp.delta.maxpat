@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 3,
-			"revision" : 2,
-			"architecture" : "x86",
+			"revision" : 3,
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 318.0, 229.0, 833.0, 487.0 ],
+		"rect" : [ 318.0, 229.0, 446.0, 341.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -50,8 +50,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 2,
-							"architecture" : "x86",
+							"revision" : 3,
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -281,7 +281,7 @@
 					"outlettype" : [ "", "bang" ],
 					"patching_rect" : [ 41.609894, 154.302368, 294.780212, 22.0 ],
 					"style" : "",
-					"text" : "mp.router #0.mpContext "
+					"text" : "mp.router #0.mpContext  @automute 1"
 				}
 
 			}
