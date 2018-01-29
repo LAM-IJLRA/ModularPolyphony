@@ -1,0 +1,32 @@
+{
+	"author" : "Vincent Goudard",
+	"authors" : [  ],
+	"description" : "A toolbox for modular polyphony patching.",
+	"displayname" : "",
+	"extends" : "",
+	"extensible" : 0,
+	"homepatcher" : "ModularPolyphony.overview.maxpat",
+	"max_version_max" : "none",
+	"max_version_min" : "none",
+	"name" : "ModularPolyphony",
+	"os" : 	{
+		"macintosh" : 		{
+			"platform" : [ "ia32", "x64" ],
+			"min_version" : "none"
+		}
+,
+		"windows" : 		{
+			"platform" : [ "ia32", "x64" ],
+			"min_version" : "none"
+		}
+
+	}
+,
+	"package_extra" : 	{
+
+	}
+,
+	"tags" : [ "modular", "polyphony"],
+	"version" : "1.0.0",
+	"website" : "http://vincentgoudard.com"
+}
