@@ -2,14 +2,14 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 7,
-			"minor" : 3,
-			"revision" : 3,
+			"major" : 8,
+			"minor" : 0,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 100.0, 100.0, 845.0, 387.0 ],
+		"rect" : [ 100.0, 100.0, 803.0, 317.0 ],
 		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -39,12 +39,39 @@
 		"subpatcher_template" : "LAM.lib.HelpPatcher",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-8",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 423.0, 196.0, 150.0, 20.0 ],
+					"presentation_rect" : [ 423.0, 196.0, 150.0, 20.0 ],
+					"style" : "",
+					"text" : "bla is not filtered"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 180.0, 272.0, 91.0, 22.0 ],
+					"presentation_rect" : [ 180.0, 272.0, 91.0, 22.0 ],
+					"style" : "",
+					"text" : "print @popup 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-6",
 					"maxclass" : "button",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 74.0, 132.0, 24.0, 24.0 ],
+					"patching_rect" : [ 358.0, 128.0, 24.0, 24.0 ],
+					"presentation_rect" : [ 358.0, 128.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -58,7 +85,8 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 74.0, 160.0, 50.0, 22.0 ],
+					"patching_rect" : [ 358.0, 156.0, 50.0, 22.0 ],
+					"presentation_rect" : [ 358.0, 156.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -70,7 +98,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 74.0, 199.0, 60.0, 22.0 ],
+					"patching_rect" : [ 358.0, 195.0, 60.0, 22.0 ],
+					"presentation_rect" : [ 358.0, 195.0, 60.0, 22.0 ],
 					"style" : "",
 					"text" : "23 bla $1"
 				}
@@ -83,7 +112,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 221.0, 135.0, 24.0, 24.0 ],
+					"patching_rect" : [ 217.0, 131.0, 24.0, 24.0 ],
+					"presentation_rect" : [ 217.0, 131.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -95,7 +125,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 148.0, 132.0, 24.0, 24.0 ],
+					"patching_rect" : [ 144.0, 128.0, 24.0, 24.0 ],
+					"presentation_rect" : [ 144.0, 128.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -109,7 +140,8 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 219.0, 160.0, 50.0, 22.0 ],
+					"patching_rect" : [ 215.0, 156.0, 50.0, 22.0 ],
+					"presentation_rect" : [ 215.0, 156.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -121,7 +153,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 219.0, 199.0, 64.0, 22.0 ],
+					"patching_rect" : [ 215.0, 195.0, 64.0, 22.0 ],
+					"presentation_rect" : [ 215.0, 195.0, 64.0, 22.0 ],
 					"style" : "",
 					"text" : "34 toto $1"
 				}
@@ -135,21 +168,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 144.0, 272.0, 24.0, 24.0 ],
+					"presentation_rect" : [ 144.0, 272.0, 24.0, 24.0 ],
 					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-45",
-					"linecount" : 2,
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 199.5, 272.0, 67.0, 35.0 ],
-					"style" : "",
-					"text" : "48.2 23 bla"
 				}
 
 			}
@@ -162,7 +182,8 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 148.0, 160.0, 50.0, 22.0 ],
+					"patching_rect" : [ 144.0, 156.0, 50.0, 22.0 ],
+					"presentation_rect" : [ 144.0, 156.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -174,7 +195,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 148.0, 199.0, 64.0, 22.0 ],
+					"patching_rect" : [ 144.0, 195.0, 64.0, 22.0 ],
+					"presentation_rect" : [ 144.0, 195.0, 64.0, 22.0 ],
 					"style" : "",
 					"text" : "23 toto $1"
 				}
@@ -188,6 +210,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 144.0, 230.0, 127.0, 22.0 ],
+					"presentation_rect" : [ 144.0, 230.0, 127.0, 22.0 ],
 					"style" : "",
 					"text" : "mp.paramchange toto"
 				}
@@ -209,6 +232,7 @@
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ -0.5, 0.060059, 802.0, 57.0 ],
+					"presentation_rect" : [ -0.5, 0.060059, 802.0, 57.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -222,6 +246,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 5.5, 65.060059, 272.0, 20.0 ],
+					"presentation_rect" : [ 5.5, 65.060059, 272.0, 20.0 ],
 					"style" : "",
 					"text" : "Observe if a mp-param did change or not, per ID."
 				}
@@ -237,6 +262,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 0,
 					"patching_rect" : [ 377.0, 27.0, 95.0, 19.0 ],
+					"presentation_rect" : [ 377.0, 27.0, 95.0, 19.0 ],
 					"style" : "",
 					"text" : "bgcolor 0.9 0.91 0.91"
 				}
@@ -246,17 +272,13 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-57", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-3", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-45", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
+					"destination" : [ "obj-4", 0 ],
 					"order" : 0,
 					"source" : [ "obj-34", 0 ]
 				}
@@ -265,8 +287,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-48", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"order" : 1,
 					"source" : [ "obj-34", 0 ]
 				}
@@ -275,8 +295,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-34", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-38", 0 ]
 				}
 
@@ -284,8 +302,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-38", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-41", 0 ]
 				}
 
@@ -293,8 +309,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-51", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-49", 0 ]
 				}
 
@@ -302,8 +316,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-34", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-51", 0 ]
 				}
 
@@ -311,8 +323,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-41", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-54", 0 ]
 				}
 
@@ -320,8 +330,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-49", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-56", 0 ]
 				}
 
@@ -329,8 +337,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-34", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-57", 0 ]
 				}
 
@@ -338,8 +344,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-6", 0 ]
 				}
 
@@ -348,18 +352,21 @@
 		"dependency_cache" : [ 			{
 				"name" : "LAM.helpheader.maxpat",
 				"bootpath" : "~/Documents/Max/Packages/lam-lib/patchers",
+				"patcherrelativepath" : "../../../../Max/Packages/lam-lib/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "lamlib-helper.coll",
 				"bootpath" : "~/Documents/Max/Packages/lam-lib/extras",
+				"patcherrelativepath" : "../../../../Max/Packages/lam-lib/extras",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mp.paramchange.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony/patchers",
+				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
