@@ -2,14 +2,14 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 7,
-			"minor" : 3,
-			"revision" : 2,
-			"architecture" : "x86",
+			"major" : 8,
+			"minor" : 0,
+			"revision" : 0,
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 59.0, 104.0, 640.0, 480.0 ],
+		"rect" : [ 59.0, 104.0, 809.0, 344.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -45,7 +45,7 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 278.0, 294.0, 50.0, 22.0 ],
-					"presentation_rect" : [ 278.0, 291.0, 0.0, 0.0 ],
+					"presentation_rect" : [ 278.0, 294.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -58,7 +58,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 278.0, 231.0, 24.0, 24.0 ],
-					"presentation_rect" : [ 278.0, 228.0, 0.0, 0.0 ],
+					"presentation_rect" : [ 278.0, 231.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -71,7 +71,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 278.0, 264.0, 49.0, 22.0 ],
-					"presentation_rect" : [ 278.0, 261.0, 0.0, 0.0 ],
+					"presentation_rect" : [ 278.0, 264.0, 49.0, 22.0 ],
 					"style" : "",
 					"text" : "mp.uID"
 				}
@@ -86,7 +86,7 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 182.0, 294.0, 50.0, 22.0 ],
-					"presentation_rect" : [ 182.0, 293.0, 0.0, 0.0 ],
+					"presentation_rect" : [ 182.0, 294.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -99,7 +99,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 182.0, 231.0, 24.0, 24.0 ],
-					"presentation_rect" : [ 182.0, 230.0, 0.0, 0.0 ],
+					"presentation_rect" : [ 182.0, 231.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -112,7 +112,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 182.0, 264.0, 49.0, 22.0 ],
-					"presentation_rect" : [ 182.0, 263.0, 0.0, 0.0 ],
+					"presentation_rect" : [ 182.0, 264.0, 49.0, 22.0 ],
 					"style" : "",
 					"text" : "mp.uID"
 				}
@@ -127,6 +127,7 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 87.0, 294.0, 50.0, 22.0 ],
+					"presentation_rect" : [ 87.0, 294.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -139,6 +140,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 87.0, 231.0, 24.0, 24.0 ],
+					"presentation_rect" : [ 87.0, 231.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -151,6 +153,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 87.0, 264.0, 49.0, 22.0 ],
+					"presentation_rect" : [ 87.0, 264.0, 49.0, 22.0 ],
 					"style" : "",
 					"text" : "mp.uID"
 				}
@@ -162,8 +165,10 @@
 					"id" : "obj-17",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
-					"numoutlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
 					"patching_rect" : [ 87.0, 163.0, 223.0, 29.0 ],
+					"presentation_rect" : [ 87.0, 163.0, 223.0, 29.0 ],
 					"style" : "",
 					"text" : "mp.uID.maker @min 9000"
 				}
@@ -176,6 +181,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 24.0, 84.802368, 477.0, 20.0 ],
+					"presentation_rect" : [ 24.0, 84.802368, 477.0, 20.0 ],
 					"style" : "",
 					"text" : "It offers an alternative to #0, for on-the-fly IDs not needing a new object instanciation."
 				}
@@ -188,6 +194,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 24.0, 63.802368, 468.0, 20.0 ],
+					"presentation_rect" : [ 24.0, 63.802368, 468.0, 20.0 ],
 					"style" : "",
 					"text" : "mp.uID.maker provides unique IDs when requested by mp.uID objects."
 				}
@@ -195,7 +202,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@obj-name", "mp.uID.maker", "@obj-desc", "Centralized unique ID maker." ],
+					"args" : [ "mp.uID.maker", "@description", "Centralized unique ID maker.", "@categories", "system" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -209,6 +216,7 @@
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ -0.5, -1.939941, 802.0, 57.0 ],
+					"presentation_rect" : [ -0.5, -1.939941, 802.0, 57.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -217,8 +225,6 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -226,8 +232,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-10", 0 ]
 				}
 
@@ -235,8 +239,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -244,8 +246,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-13", 0 ]
 				}
 
@@ -253,8 +253,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-14", 0 ]
 				}
 
@@ -262,8 +260,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -272,24 +268,28 @@
 		"dependency_cache" : [ 			{
 				"name" : "mp.helpheader.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony/patchers",
+				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mp-helper.coll",
-				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony/extras",
-				"type" : "TEXT",
+				"name" : "mp-icon.png",
+				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony",
+				"patcherrelativepath" : "..",
+				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mp.uID.maker.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony/patchers",
+				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mp.uID.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony/patchers",
+				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}

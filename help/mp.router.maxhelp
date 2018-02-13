@@ -2,9 +2,9 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 7,
-			"minor" : 3,
-			"revision" : 5,
+			"major" : 8,
+			"minor" : 0,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -44,6 +44,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 24.0, 107.802368, 477.0, 20.0 ],
+					"presentation_rect" : [ 24.0, 107.802368, 477.0, 20.0 ],
 					"style" : "",
 					"text" : "See /examples/mp.examples.maxpat for use cases."
 				}
@@ -58,6 +59,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 86.0, 278.0, 30.0, 30.0 ],
+					"presentation_rect" : [ 86.0, 278.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -72,6 +74,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 86.0, 166.0, 30.0, 30.0 ],
+					"presentation_rect" : [ 86.0, 166.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -83,6 +86,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 360.0, 247.302368, 300.0, 20.0 ],
+					"presentation_rect" : [ 360.0, 247.302368, 300.0, 20.0 ],
 					"style" : "",
 					"text" : "the same context should be passed to the poly~ object"
 				}
@@ -96,6 +100,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "signal", "", "" ],
 					"patching_rect" : [ 86.0, 246.302368, 260.0, 22.0 ],
+					"presentation_rect" : [ 86.0, 246.302368, 260.0, 22.0 ],
 					"style" : "",
 					"text" : "poly~ mp.demoSynth.p 1 args #0.myContext"
 				}
@@ -108,6 +113,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 24.0, 85.802368, 477.0, 20.0 ],
+					"presentation_rect" : [ 24.0, 85.802368, 477.0, 20.0 ],
 					"style" : "",
 					"text" : "mp messages are based on a protocol expanding MIDI and MPE to arbitrary data types."
 				}
@@ -120,6 +126,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 24.0, 63.802368, 468.0, 20.0 ],
+					"presentation_rect" : [ 24.0, 63.802368, 468.0, 20.0 ],
 					"style" : "",
 					"text" : "mp.router is routing \"mp\" messages to a poly~ object, managing voice allocation."
 				}
@@ -133,6 +140,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 341.0, 200.302368, 250.0, 33.0 ],
+					"presentation_rect" : [ 341.0, 200.302368, 250.0, 33.0 ],
 					"style" : "",
 					"text" : "argument : context name (should be unique)\nattributes : steal : similar to poly~ steal mode"
 				}
@@ -149,6 +157,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"patching_rect" : [ 86.0, 211.302368, 238.0, 22.0 ],
+					"presentation_rect" : [ 86.0, 211.302368, 238.0, 22.0 ],
 					"style" : "",
 					"text" : "mp.router #0.myContext @steal 1"
 				}
@@ -156,7 +165,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@obj-name", "mp.router", "@obj-desc", "Router for modular polyphony." ],
+					"args" : [ "mp.router", "@description", "Router for modular polyphony.", "@categories", "system" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -170,6 +179,7 @@
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ -0.5, -1.939941, 802.0, 57.0 ],
+					"presentation_rect" : [ -0.5, -1.939941, 802.0, 57.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -186,9 +196,9 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 7,
-							"minor" : 3,
-							"revision" : 5,
+							"major" : 8,
+							"minor" : 0,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -228,6 +238,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"patching_rect" : [ 41.0, 85.0, 29.5, 22.0 ],
+									"presentation_rect" : [ 41.0, 85.0, 29.5, 22.0 ],
 									"style" : "",
 									"text" : "> 0"
 								}
@@ -242,6 +253,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 98.0, 48.0, 150.0, 20.0 ],
+									"presentation_rect" : [ 98.0, 48.0, 150.0, 20.0 ],
 									"style" : "",
 									"text" : "ON/OFF to ON/SET/OFF"
 								}
@@ -256,6 +268,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 41.0, 220.0, 30.0, 30.0 ],
+									"presentation_rect" : [ 41.0, 220.0, 30.0, 30.0 ],
 									"style" : ""
 								}
 
@@ -270,6 +283,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 41.0, 46.0, 30.0, 30.0 ],
+									"presentation_rect" : [ 41.0, 46.0, 30.0, 30.0 ],
 									"style" : ""
 								}
 
@@ -284,6 +298,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "int", "int" ],
 									"patching_rect" : [ 41.0, 165.0, 116.0, 22.0 ],
+									"presentation_rect" : [ 41.0, 165.0, 116.0, 22.0 ],
 									"style" : "",
 									"text" : "t 2 1"
 								}
@@ -299,6 +314,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "" ],
 									"patching_rect" : [ 41.0, 126.0, 172.0, 22.0 ],
+									"presentation_rect" : [ 41.0, 126.0, 172.0, 22.0 ],
 									"style" : "",
 									"text" : "sel 1"
 								}
@@ -353,6 +369,7 @@
 					}
 ,
 					"patching_rect" : [ 729.0, 21.287109, 60.0, 22.0 ],
+					"presentation_rect" : [ 729.0, 21.287109, 60.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -397,10 +414,10 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mp-helper.coll",
-				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony/extras",
-				"patcherrelativepath" : "../extras",
-				"type" : "TEXT",
+				"name" : "mp-icon.png",
+				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony",
+				"patcherrelativepath" : "..",
+				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{

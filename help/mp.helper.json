@@ -1,0 +1,27 @@
+{
+	"mp.slide" : 	{
+		"categories" : "component",
+		"description" : "Slide object as an mp-block."
+	}
+,
+	"mp.param.change" : 	{
+		"categories" : "component",
+		"description" : "Check if param has changed, per id."
+	}
+,
+	"mp.router" : 	{
+		"categories" : "system",
+		"description" : "Router for modular polyphony."
+	}
+,
+	"mp.uID.maker" : 	{
+		"categories" : "system",
+		"description" : "Centralized unique ID maker."
+	}
+,
+	"mp.zl.join" : 	{
+		"description" : "A modular polyphony framework",
+		"categories" : "component"
+	}
+
+}
