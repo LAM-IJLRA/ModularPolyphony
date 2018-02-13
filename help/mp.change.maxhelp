@@ -203,7 +203,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@obj-name", "mp.change", "@obj-desc", "Change filtering for mp.events" ],
+					"args" : [ "mp.change", "@description", "Change filtering for mp.events", "@categories", "component" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -212,7 +212,7 @@
 					"id" : "obj-5",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "LAM.helpheader.maxpat",
+					"name" : "mp.helpheader.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
@@ -307,17 +307,17 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "LAM.helpheader.maxpat",
-				"bootpath" : "~/Documents/Max/Packages/lam-lib/patchers",
-				"patcherrelativepath" : "../../../../Max/Packages/lam-lib/patchers",
+				"name" : "mp.helpheader.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony/patchers",
+				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "lamlib-helper.coll",
-				"bootpath" : "~/Documents/Max/Packages/lam-lib/extras",
-				"patcherrelativepath" : "../../../../Max/Packages/lam-lib/extras",
-				"type" : "TEXT",
+				"name" : "mp-icon.png",
+				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony",
+				"patcherrelativepath" : "..",
+				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{

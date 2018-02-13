@@ -2,14 +2,14 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 7,
-			"minor" : 3,
-			"revision" : 2,
-			"architecture" : "x86",
+			"major" : 8,
+			"minor" : 0,
+			"revision" : 0,
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 427.0, 79.0, 599.0, 387.0 ],
+		"rect" : [ 427.0, 79.0, 817.0, 291.0 ],
 		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -44,7 +44,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 198.0, 161.0, 150.0, 20.0 ],
-					"presentation_rect" : [ 198.0, 160.0, 0.0, 0.0 ],
+					"presentation_rect" : [ 198.0, 161.0, 150.0, 20.0 ],
 					"style" : "",
 					"text" : "... then here"
 				}
@@ -57,6 +57,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 177.0, 126.0, 150.0, 20.0 ],
+					"presentation_rect" : [ 177.0, 126.0, 150.0, 20.0 ],
 					"style" : "",
 					"text" : "click here several times..."
 				}
@@ -70,6 +71,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 162.25, 161.0, 29.5, 22.0 ],
+					"presentation_rect" : [ 162.25, 161.0, 29.5, 22.0 ],
 					"style" : "",
 					"text" : "0"
 				}
@@ -82,6 +84,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 141.5, 232.0, 34.0, 22.0 ],
+					"presentation_rect" : [ 141.5, 232.0, 34.0, 22.0 ],
 					"style" : "",
 					"text" : "print"
 				}
@@ -95,6 +98,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 141.5, 127.0, 29.5, 22.0 ],
+					"presentation_rect" : [ 141.5, 127.0, 29.5, 22.0 ],
 					"style" : "",
 					"text" : "1"
 				}
@@ -108,6 +112,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 141.5, 197.762573, 71.0, 22.0 ],
+					"presentation_rect" : [ 141.5, 197.762573, 71.0, 22.0 ],
 					"style" : "",
 					"text" : "mp.oo2ouo"
 				}
@@ -115,7 +120,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@obj-name", "mp.oo2ouo", "@obj-desc", "On/Off to On/Update/Off converter." ],
+					"args" : [ "mp.oo2ouo", "@description", "On/Off to On/Update/Off converter.", "@categories", "utilities" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -124,11 +129,12 @@
 					"id" : "obj-5",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "LAM.helpheader.maxpat",
+					"name" : "mp.helpheader.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ -0.5, 0.060059, 802.0, 57.0 ],
+					"presentation_rect" : [ -0.5, 0.060059, 802.0, 57.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -143,6 +149,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 0,
 					"patching_rect" : [ 377.0, 27.0, 95.0, 19.0 ],
+					"presentation_rect" : [ 377.0, 27.0, 95.0, 19.0 ],
 					"style" : "",
 					"text" : "bgcolor 0.9 0.91 0.91"
 				}
@@ -152,8 +159,6 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-66", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -161,8 +166,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-66", 0 ]
 				}
 
@@ -170,28 +173,29 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-66", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-8", 0 ]
 				}
 
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "LAM.helpheader.maxpat",
-				"bootpath" : "~/Documents/Max/Packages/lam-lib/patchers",
+				"name" : "mp.helpheader.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony/patchers",
+				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "lamlib-helper.coll",
-				"bootpath" : "~/Documents/Max/Packages/lam-lib/extras",
-				"type" : "TEXT",
+				"name" : "mp-icon.png",
+				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony",
+				"patcherrelativepath" : "..",
+				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mp.oo2ouo.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony/patchers",
+				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}

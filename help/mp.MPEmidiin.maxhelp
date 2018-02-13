@@ -2,10 +2,10 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 7,
-			"minor" : 3,
-			"revision" : 2,
-			"architecture" : "x86",
+			"major" : 8,
+			"minor" : 0,
+			"revision" : 0,
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
@@ -44,6 +44,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 97.0, 227.0, 34.0, 22.0 ],
+					"presentation_rect" : [ 97.0, 227.0, 34.0, 22.0 ],
 					"style" : "",
 					"text" : "print"
 				}
@@ -57,6 +58,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 97.0, 192.0, 88.0, 22.0 ],
+					"presentation_rect" : [ 97.0, 192.0, 88.0, 22.0 ],
 					"style" : "",
 					"text" : "mp.MPEmidiin"
 				}
@@ -64,7 +66,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@obj-name", "mp.MPEmidiin", "@obj-desc", "MPE format wrapper to mp syntax." ],
+					"args" : [ "mp.MPEmidiin", "@description", "MPE format wrapper to mp syntax.", "@categories", "component" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -73,11 +75,12 @@
 					"id" : "obj-5",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "LAM.helpheader.maxpat",
+					"name" : "mp.helpheader.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ -0.5, 0.060059, 802.0, 57.0 ],
+					"presentation_rect" : [ -0.5, 0.060059, 802.0, 57.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -92,6 +95,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 5.5, 65.060059, 590.0, 33.0 ],
+					"presentation_rect" : [ 5.5, 65.060059, 590.0, 33.0 ],
 					"style" : "",
 					"text" : "The channel round-robin logics in MPE is replaced by declaring notes with a guest parameter set to the matching channel uID."
 				}
@@ -107,6 +111,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 0,
 					"patching_rect" : [ 377.0, 27.0, 95.0, 19.0 ],
+					"presentation_rect" : [ 377.0, 27.0, 95.0, 19.0 ],
 					"style" : "",
 					"text" : "bgcolor 0.9 0.91 0.91"
 				}
@@ -116,34 +121,36 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-3", 0 ]
 				}
 
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "LAM.helpheader.maxpat",
-				"bootpath" : "~/Documents/Max/Packages/lam-lib/patchers",
+				"name" : "mp.helpheader.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony/patchers",
+				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "lamlib-helper.coll",
-				"bootpath" : "~/Documents/Max/Packages/lam-lib/extras",
-				"type" : "TEXT",
+				"name" : "mp-icon.png",
+				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony",
+				"patcherrelativepath" : "..",
+				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mp.MPEmidiin.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony/patchers",
+				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mp.uID.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony/patchers",
+				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}

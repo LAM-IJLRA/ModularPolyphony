@@ -23,5 +23,40 @@
 		"description" : "A modular polyphony framework",
 		"categories" : "component"
 	}
+,
+	"mp.change" : 	{
+		"categories" : "component",
+		"description" : "Change filtering for mp.events"
+	}
+,
+	"mp.branches" : 	{
+		"categories" : "component",
+		"description" : "Slide from one root value to a tree of other values."
+	}
+,
+	"mp.id2color" : 	{
+		"categories" : "utilities",
+		"description" : "Utility to get various colors from consecutive integer."
+	}
+,
+	"mp.event.merge" : 	{
+		"categories" : "component",
+		"description" : "Merge incoming mp-events."
+	}
+,
+	"mp.MPEmidiin" : 	{
+		"categories" : "component",
+		"description" : "MPE format wrapper to mp syntax."
+	}
+,
+	"mp.uID" : 	{
+		"categories" : "system",
+		"description" : "Centralized unique ID caller."
+	}
+,
+	"mp.oo2ouo" : 	{
+		"categories" : "utilities",
+		"description" : "On/Off to On/Update/Off converter."
+	}
 
 }

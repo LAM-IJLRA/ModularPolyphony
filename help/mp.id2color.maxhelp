@@ -2,10 +2,10 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 7,
-			"minor" : 3,
-			"revision" : 4,
-			"architecture" : "x86",
+			"major" : 8,
+			"minor" : 0,
+			"revision" : 0,
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
@@ -40,13 +40,14 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 1.0, 0.0, 0.736842, 0.2 ],
+					"bgcolor" : [ 0.210526, 0.0, 1.0, 0.2 ],
 					"id" : "obj-11",
 					"maxclass" : "panel",
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 120.0, 244.0, 128.0, 128.0 ],
+					"patching_rect" : [ 155.0, 203.0, 128.0, 128.0 ],
+					"presentation_rect" : [ 155.0, 203.0, 128.0, 128.0 ],
 					"proportion" : 0.39,
 					"style" : ""
 				}
@@ -59,7 +60,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 120.0, 214.0, 109.0, 22.0 ],
+					"patching_rect" : [ 155.0, 173.0, 109.0, 22.0 ],
+					"presentation_rect" : [ 155.0, 173.0, 109.0, 22.0 ],
 					"style" : "",
 					"text" : "prepend bgfillcolor"
 				}
@@ -73,7 +75,8 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 120.0, 151.0, 50.0, 22.0 ],
+					"patching_rect" : [ 155.0, 110.0, 50.0, 22.0 ],
+					"presentation_rect" : [ 155.0, 110.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -85,7 +88,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 120.0, 184.0, 73.0, 22.0 ],
+					"patching_rect" : [ 155.0, 143.0, 73.0, 22.0 ],
+					"presentation_rect" : [ 155.0, 143.0, 73.0, 22.0 ],
 					"style" : "",
 					"text" : "mp.id2color"
 				}
@@ -93,7 +97,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "@obj-name", "mp.id2color", "@obj-desc", "Utility to get various colors from consecutive integer." ],
+					"args" : [ "mp.id2color", "@description", "Utility to get various colors from consecutive integer.", "@categories", "utilities" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -102,11 +106,12 @@
 					"id" : "obj-5",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "WM.helpheader.maxpat",
+					"name" : "mp.helpheader.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ -0.5, 0.060059, 802.0, 57.0 ],
+					"presentation_rect" : [ -0.5, 0.060059, 802.0, 57.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -120,6 +125,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 5.5, 65.060059, 312.0, 20.0 ],
+					"presentation_rect" : [ 5.5, 65.060059, 312.0, 20.0 ],
 					"style" : "",
 					"text" : "This is used mostly to assigned a color to a mp-event ID."
 				}
@@ -135,6 +141,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 0,
 					"patching_rect" : [ 377.0, 27.0, 95.0, 19.0 ],
+					"presentation_rect" : [ 377.0, 27.0, 95.0, 19.0 ],
 					"style" : "",
 					"text" : "bgcolor 0.9 0.91 0.91"
 				}
@@ -164,26 +171,23 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "WM.helpheader.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/WM.lib/patchers",
+				"name" : "mp.helpheader.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony/patchers",
+				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "WM.lib-logo.png",
-				"bootpath" : "~/Documents/Max 7/Packages/WM.lib/media",
+				"name" : "mp-icon.png",
+				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony",
+				"patcherrelativepath" : "..",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "WM-helper.coll",
-				"bootpath" : "~/Documents/Max 7/Packages/WM.lib/extras",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "mp.id2color.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/WM.lib/patchers",
+				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony/patchers",
+				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
