@@ -517,6 +517,7 @@
 																	"numinlets" : 1,
 																	"numoutlets" : 0,
 																	"patching_rect" : [ 468.0, 168.0, 321.0, 51.0 ],
+																	"presentation_linecount" : 3,
 																	"presentation_rect" : [ 468.0, 168.0, 321.0, 51.0 ],
 																	"style" : "",
 																	"text" : "Optional processing can be performed here, but only \"pure functions\" will work. For non-pure function, it will be necessary to use a dedicated mp-block."
@@ -779,6 +780,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 102.0, 214.0, 318.0, 64.0 ],
+													"presentation_linecount" : 4,
 													"presentation_rect" : [ 102.0, 214.0, 318.0, 64.0 ],
 													"style" : "",
 													"text" : "If we do not assign several output params to a single input params (as is the case above with position.y mapped to both velocity and cutoff), we can make it slightly simpler"
@@ -839,6 +841,7 @@
 																	"numinlets" : 1,
 																	"numoutlets" : 0,
 																	"patching_rect" : [ 324.0, 96.0, 150.0, 60.0 ],
+																	"presentation_linecount" : 4,
 																	"presentation_rect" : [ 324.0, 96.0, 150.0, 60.0 ],
 																	"style" : "",
 																	"text" : "beware that this would cause badly formatted messages if some parameters are skipped"
@@ -1041,6 +1044,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 205.0, 122.5, 205.0, 51.0 ],
+													"presentation_linecount" : 3,
 													"presentation_rect" : [ 205.0, 122.5, 205.0, 51.0 ],
 													"style" : "",
 													"text" : "This is the general way to map incoming mp-event parameters onto other parameters."
@@ -1477,6 +1481,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 102.0, 214.0, 318.0, 64.0 ],
+													"presentation_linecount" : 4,
 													"presentation_rect" : [ 102.0, 214.0, 318.0, 64.0 ],
 													"style" : "",
 													"text" : "If we do not assign several output params to a single input params (as is the case above with position.y mapped to both velocity and cutoff), we can make it slightly simpler"
@@ -1537,6 +1542,7 @@
 																	"numinlets" : 1,
 																	"numoutlets" : 0,
 																	"patching_rect" : [ 324.0, 96.0, 150.0, 60.0 ],
+																	"presentation_linecount" : 4,
 																	"presentation_rect" : [ 324.0, 96.0, 150.0, 60.0 ],
 																	"style" : "",
 																	"text" : "beware that this would cause badly formatted messages if some parameters are skipped"
@@ -1739,6 +1745,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 205.0, 122.5, 205.0, 51.0 ],
+													"presentation_linecount" : 3,
 													"presentation_rect" : [ 205.0, 122.5, 205.0, 51.0 ],
 													"style" : "",
 													"text" : "This is the general way to map incoming mp-event parameters onto other parameters."
@@ -2054,6 +2061,7 @@
 																	"numinlets" : 1,
 																	"numoutlets" : 0,
 																	"patching_rect" : [ 468.0, 168.0, 321.0, 51.0 ],
+																	"presentation_linecount" : 3,
 																	"presentation_rect" : [ 468.0, 168.0, 321.0, 51.0 ],
 																	"style" : "",
 																	"text" : "Optional processing can be performed here, but only \"pure functions\" will work. For non-pure function, it will be necessary to use a dedicated mp-block."
@@ -2370,6 +2378,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 102.0, 214.0, 318.0, 64.0 ],
+													"presentation_linecount" : 4,
 													"presentation_rect" : [ 102.0, 214.0, 318.0, 64.0 ],
 													"style" : "",
 													"text" : "If we do not assign several output params to a single input params (as is the case above with position.y mapped to both velocity and cutoff), we can make it slightly simpler"
@@ -2672,6 +2681,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 205.0, 122.5, 205.0, 51.0 ],
+													"presentation_linecount" : 3,
 													"presentation_rect" : [ 205.0, 122.5, 205.0, 51.0 ],
 													"style" : "",
 													"text" : "This is the general way to map incoming mp-event parameters onto other parameters."
@@ -4185,13 +4195,13 @@
 									"presentation_rect" : [ 110.5, 412.287109, 175.0, 31.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_mmin" : -70.0,
-											"parameter_longname" : "live.gain~[16]",
 											"parameter_mmax" : 6.0,
 											"parameter_initial" : [ 0.0 ],
 											"parameter_shortname" : "live.gain~",
 											"parameter_type" : 0,
-											"parameter_unitstyle" : 4
+											"parameter_unitstyle" : 4,
+											"parameter_mmin" : -70.0,
+											"parameter_longname" : "live.gain~[16]"
 										}
 
 									}
@@ -4504,6 +4514,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 12.5, 45.0, 786.0, 88.0 ],
+									"presentation_linecount" : 5,
 									"presentation_rect" : [ 12.5, 45.0, 786.0, 88.0 ],
 									"style" : "",
 									"text" : "When a new mp-event arrives at a mp-block and declares guests, it allows guests to pass parameters later on.\nBut what if those guests are already active ? There are 2 options depending on the \"@permanence\" argument that we can give to an mp-block:\n- if permanence = 0 (default), the new mp-event will not recover guests and master-ID's last values\n- if permanence = 1, the new mp-event will recover guests and master-ID's last values.\nBeware that since we need to compare timetags for each parameter to send only the last parameter value, this is more CPU-expensive."
@@ -4521,6 +4532,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 248.0, 174.0, 348.0, 37.0 ],
+									"presentation_linecount" : 2,
 									"presentation_rect" : [ 248.0, 174.0, 348.0, 37.0 ],
 									"style" : "",
 									"text" : "2) trigger new mp-events : they are not recovering the cutoff value, only accepting it to change it *after* they started."
@@ -4554,6 +4566,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 601.0, 345.0, 179.0, 37.0 ],
+									"presentation_linecount" : 2,
 									"presentation_rect" : [ 601.0, 345.0, 179.0, 37.0 ],
 									"style" : "",
 									"text" : "3) now set permanence ON and repeat steps 1) and 2)"
@@ -4947,6 +4960,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 181.0, 122.5, 205.0, 51.0 ],
+													"presentation_linecount" : 3,
 													"presentation_rect" : [ 181.0, 122.5, 205.0, 51.0 ],
 													"style" : "",
 													"text" : "This is the general way to map incoming mp-event parameters onto other parameters."
@@ -5216,6 +5230,7 @@
 																	"numinlets" : 1,
 																	"numoutlets" : 0,
 																	"patching_rect" : [ 215.0, 123.0, 150.0, 60.0 ],
+																	"presentation_linecount" : 4,
 																	"presentation_rect" : [ 215.0, 123.0, 150.0, 60.0 ],
 																	"style" : "",
 																	"text" : "guest should not allocate their own voice (but should be cleaned when done)"
@@ -5634,6 +5649,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 164.5, 16.5, 313.0, 52.0 ],
+													"presentation_linecount" : 2,
 													"presentation_rect" : [ 164.5, 16.5, 313.0, 52.0 ],
 													"style" : "",
 													"text" : "Here we use the same technique to control the visual representation both locally and globally ."
@@ -5651,6 +5667,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 194.0, 129.5, 312.0, 37.0 ],
+													"presentation_linecount" : 2,
 													"presentation_rect" : [ 194.0, 129.5, 312.0, 37.0 ],
 													"style" : "",
 													"text" : "their color is tied to the parent event, which is related to the finger touch rather than individual notes."
@@ -5668,6 +5685,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 152.5, 77.5, 347.5, 37.0 ],
+													"presentation_linecount" : 2,
 													"presentation_rect" : [ 152.5, 77.5, 347.5, 37.0 ],
 													"style" : "",
 													"text" : "circle representing notes are controlled locally and triggered by all the child mp-events generated by mp.note2chord."
@@ -7458,6 +7476,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 192.0, 159.0, 408.0, 33.0 ],
+													"presentation_linecount" : 2,
 													"presentation_rect" : [ 192.0, 159.0, 408.0, 33.0 ],
 													"style" : "",
 													"text" : "with persistent ON, new mp-event will also recover parameters from active master-ID and guests."
@@ -7775,13 +7794,13 @@
 									"presentation_rect" : [ 118.499939, 500.287109, 175.0, 31.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_mmin" : -70.0,
-											"parameter_longname" : "live.gain~[14]",
 											"parameter_mmax" : 6.0,
 											"parameter_initial" : [ 0.0 ],
 											"parameter_shortname" : "live.gain~",
 											"parameter_type" : 0,
-											"parameter_unitstyle" : 4
+											"parameter_unitstyle" : 4,
+											"parameter_mmin" : -70.0,
+											"parameter_longname" : "live.gain~[14]"
 										}
 
 									}
@@ -8118,6 +8137,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 120.5, 35.0, 464.800049, 47.0 ],
+									"presentation_linecount" : 3,
 									"presentation_rect" : [ 120.5, 35.0, 464.800049, 47.0 ],
 									"style" : "",
 									"text" : "This is an example of an mp-event having several parents (here : 2). When 2 finger positions on a TUI are closer than a threshold distance, an arc will appear generating sound. The are is represented by an mp-event having 2 guests, the points."
@@ -8135,6 +8155,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 431.0, 263.276367, 180.25, 37.0 ],
+									"presentation_linecount" : 2,
 									"presentation_rect" : [ 431.0, 263.276367, 180.25, 37.0 ],
 									"style" : "",
 									"text" : "distance threshold for an arc (and a sound) to appear"
@@ -8259,6 +8280,7 @@
 																	"numinlets" : 1,
 																	"numoutlets" : 0,
 																	"patching_rect" : [ 115.0, 122.5, 396.0, 33.0 ],
+																	"presentation_linecount" : 2,
 																	"presentation_rect" : [ 115.0, 122.5, 396.0, 33.0 ],
 																	"style" : "",
 																	"text" : "we can avoid the synchronisation (that could be done with state message) because we know that mp.TUIO.input is sending x *after* y."
@@ -8767,6 +8789,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 205.0, 122.5, 205.0, 51.0 ],
+													"presentation_linecount" : 3,
 													"presentation_rect" : [ 205.0, 122.5, 205.0, 51.0 ],
 													"style" : "",
 													"text" : "This is the general way to map incoming mp-event parameters onto other parameters."
@@ -10545,6 +10568,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 184.0, 79.0, 70.0, 22.0 ],
+													"presentation_linecount" : 2,
 													"presentation_rect" : [ 184.0, 79.0, 70.0, 22.0 ],
 													"style" : "",
 													"text" : "0 11843 617 618"
@@ -11543,13 +11567,13 @@
 									"presentation_rect" : [ 404.75, 502.0, 175.0, 31.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_mmin" : -70.0,
-											"parameter_longname" : "live.gain~[13]",
 											"parameter_mmax" : 6.0,
 											"parameter_initial" : [ 0.0 ],
 											"parameter_shortname" : "live.gain~",
 											"parameter_type" : 0,
-											"parameter_unitstyle" : 4
+											"parameter_unitstyle" : 4,
+											"parameter_mmin" : -70.0,
+											"parameter_longname" : "live.gain~[13]"
 										}
 
 									}
@@ -12281,6 +12305,7 @@
 													"numoutlets" : 4,
 													"outlettype" : [ "", "", "", "" ],
 													"patching_rect" : [ 130.666656, 161.0, 125.333344, 35.0 ],
+													"presentation_linecount" : 2,
 													"presentation_rect" : [ 130.666656, 161.0, 125.333344, 35.0 ],
 													"saved_object_attributes" : 													{
 														"embed" : 0
@@ -14426,6 +14451,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 32.5, 34.0, 279.0, 39.0 ],
+									"presentation_linecount" : 2,
 									"presentation_rect" : [ 32.5, 34.0, 279.0, 39.0 ],
 									"style" : "",
 									"text" : "Here is the list of operators available.\nUse them or look at them to build you own."
@@ -14865,6 +14891,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 35.0, 66.0, 656.0, 74.0 ],
+					"presentation_linecount" : 5,
 					"presentation_rect" : [ 35.0, 66.0, 656.0, 74.0 ],
 					"style" : "",
 					"text" : "These examples provide step-by-step explanations on the various features and use cases of the MP framework.\nSwitch on the GL-rendering to benefit from the visualization provided in some patchers.\nThis is all in a pretty much beta version, so I would not advise to use these tools in critical performances at the moment.\nMeanwhile, feel free to send any remarks and questions, they are all welcome.\n- vg"
@@ -14944,6 +14971,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 35.5, 36.0, 662.0, 56.0 ],
+									"presentation_linecount" : 3,
 									"presentation_rect" : [ 35.5, 36.0, 662.0, 56.0 ],
 									"style" : "",
 									"text" : "Here we control the cutoff globally using an mp-event with ID=0, the \"master-ID\". It will set the parameter for all active voices. Please note that the mp-event that activated the voice has priority over the master-ID in case both are sent in the same clock."
@@ -15006,6 +15034,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 37.0, 38.0, 468.0, 33.0 ],
+													"presentation_linecount" : 2,
 													"presentation_rect" : [ 37.0, 38.0, 468.0, 33.0 ],
 													"style" : "",
 													"text" : "although it is not the recommanded way, and hacking the mp syntax, it should be possible to pass message to the right inlet, tackling any voice with the target message"
@@ -15117,6 +15146,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 385.0, 295.197632, 308.0, 37.0 ],
+									"presentation_linecount" : 2,
 									"presentation_rect" : [ 385.0, 295.197632, 308.0, 37.0 ],
 									"style" : "",
 									"text" : "if a state message is sent, all active voices will be affected as soon as this cutoff message is sent."
@@ -15150,6 +15180,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 338.0, 199.5, 397.0, 37.0 ],
+									"presentation_linecount" : 2,
 									"presentation_rect" : [ 338.0, 199.5, 397.0, 37.0 ],
 									"style" : "",
 									"text" : "if the message is sent without a state message, it will only be taken into account when a \"normal\" mp-event is received by the mp-block."
@@ -15352,6 +15383,7 @@
 																	"numinlets" : 1,
 																	"numoutlets" : 0,
 																	"patching_rect" : [ 353.0, 157.5, 321.0, 51.0 ],
+																	"presentation_linecount" : 3,
 																	"presentation_rect" : [ 353.0, 157.5, 321.0, 51.0 ],
 																	"style" : "",
 																	"text" : "Optional processing can be performed here, but only \"pure functions\" will work. For non-pure function, it will be necessary to use a dedicated mp-block."
@@ -16868,13 +16900,13 @@
 									"presentation_rect" : [ 98.5, 442.287109, 175.0, 31.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_mmin" : -70.0,
-											"parameter_longname" : "live.gain~[12]",
 											"parameter_mmax" : 6.0,
 											"parameter_initial" : [ 0.0 ],
 											"parameter_shortname" : "live.gain~",
 											"parameter_type" : 0,
-											"parameter_unitstyle" : 4
+											"parameter_unitstyle" : 4,
+											"parameter_mmin" : -70.0,
+											"parameter_longname" : "live.gain~[12]"
 										}
 
 									}
@@ -17816,6 +17848,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 130.0, 313.5, 309.0, 37.0 ],
+													"presentation_linecount" : 2,
 													"presentation_rect" : [ 130.0, 313.5, 309.0, 37.0 ],
 													"style" : "",
 													"text" : "if the mapping is juste a change of parameter name, it can be performed with a [substitute] object."
@@ -17894,6 +17927,7 @@
 																	"numinlets" : 1,
 																	"numoutlets" : 0,
 																	"patching_rect" : [ 468.0, 168.0, 321.0, 51.0 ],
+																	"presentation_linecount" : 3,
 																	"presentation_rect" : [ 468.0, 168.0, 321.0, 51.0 ],
 																	"style" : "",
 																	"text" : "Optional processing can be performed here, but only \"pure functions\" will work. For non-pure function, it will be necessary to use a dedicated mp-block."
@@ -18210,6 +18244,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 116.0, 214.0, 318.0, 64.0 ],
+													"presentation_linecount" : 4,
 													"presentation_rect" : [ 116.0, 214.0, 318.0, 64.0 ],
 													"style" : "",
 													"text" : "If we do not assign several output params to a single input params (as is the case above with position.y mapped to both velocity and cutoff), we can make it slightly simpler"
@@ -18512,6 +18547,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 205.0, 122.5, 205.0, 51.0 ],
+													"presentation_linecount" : 3,
 													"presentation_rect" : [ 205.0, 122.5, 205.0, 51.0 ],
 													"style" : "",
 													"text" : "This is the general way to map incoming mp-event parameters onto other parameters."
@@ -18790,6 +18826,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 151.0, 107.5, 310.0, 37.0 ],
+													"presentation_linecount" : 2,
 													"presentation_rect" : [ 151.0, 107.5, 310.0, 37.0 ],
 													"style" : "",
 													"text" : "1) Since the mp.slide object will process a parameter named \"val\", we rename the pitch value to \"val\" ..."
@@ -18808,6 +18845,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 141.5, 40.0, 329.0, 52.0 ],
+													"presentation_linecount" : 2,
 													"presentation_rect" : [ 141.5, 40.0, 329.0, 52.0 ],
 													"style" : "",
 													"text" : "Here we want to slide the pitch value, so that it slowly reaches its value and really sounds sluggish (eh, why not)."
@@ -18982,6 +19020,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 274.0, 280.0, 415.0, 37.0 ],
+									"presentation_linecount" : 2,
 									"presentation_rect" : [ 274.0, 280.0, 415.0, 37.0 ],
 									"style" : "",
 									"text" : "2) if the processing function has internal memory (e.g. recursive function like [slide]), it can be performed with a dedicated mp.object."
@@ -18999,6 +19038,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 276.0, 217.5, 411.0, 51.0 ],
+									"presentation_linecount" : 3,
 									"presentation_rect" : [ 276.0, 217.5, 411.0, 51.0 ],
 									"style" : "",
 									"text" : "1) if the processing function is a \"pure function\" (i.e. with no internal memory), it can be performed without the help of an mp object. There's an example of using the [scale] object in the \"format mp-notes\" patcher."
@@ -20221,13 +20261,13 @@
 									"presentation_rect" : [ 95.5, 407.287109, 175.0, 31.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_mmin" : -70.0,
-											"parameter_longname" : "live.gain~[11]",
 											"parameter_mmax" : 6.0,
 											"parameter_initial" : [ 0.0 ],
 											"parameter_shortname" : "live.gain~",
 											"parameter_type" : 0,
-											"parameter_unitstyle" : 4
+											"parameter_unitstyle" : 4,
+											"parameter_mmin" : -70.0,
+											"parameter_longname" : "live.gain~[11]"
 										}
 
 									}
@@ -20954,6 +20994,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 31.5, 54.0, 464.800049, 47.0 ],
+									"presentation_linecount" : 3,
 									"presentation_rect" : [ 31.5, 54.0, 464.800049, 47.0 ],
 									"style" : "",
 									"text" : "The channel round-robin logics in MPE is replaced by declaring notes with a guest parameter set to the matching channel uID.\nThis example shows how to implement a simple per-note bend and LPF filter."
@@ -21064,13 +21105,13 @@
 									"presentation_rect" : [ 76.5, 374.287109, 175.0, 31.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_mmin" : -70.0,
-											"parameter_longname" : "live.gain~[10]",
 											"parameter_mmax" : 6.0,
 											"parameter_initial" : [ 0.0 ],
 											"parameter_shortname" : "live.gain~",
 											"parameter_type" : 0,
-											"parameter_unitstyle" : 4
+											"parameter_unitstyle" : 4,
+											"parameter_mmin" : -70.0,
+											"parameter_longname" : "live.gain~[10]"
 										}
 
 									}
@@ -21258,6 +21299,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 287.0, 179.5, 132.0, 52.0 ],
+									"presentation_linecount" : 2,
 									"presentation_rect" : [ 287.0, 179.5, 132.0, 52.0 ],
 									"style" : "",
 									"text" : "...this one does it too, but as a guest."
@@ -21275,6 +21317,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 622.5, 152.5, 125.0, 79.0 ],
+									"presentation_linecount" : 4,
 									"presentation_rect" : [ 622.5, 152.5, 125.0, 79.0 ],
 									"style" : "",
 									"text" : "... and this one will control the cutoff for mp-events from mp.midiiin ..."
@@ -21519,6 +21562,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 736.0, 318.5, 172.0, 51.0 ],
+									"presentation_linecount" : 3,
 									"presentation_rect" : [ 736.0, 318.5, 172.0, 51.0 ],
 									"style" : "",
 									"text" : "activate permanence to recover overloaded param for a new mp-event"
@@ -21980,6 +22024,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 151.5, 152.5, 129.0, 79.0 ],
+									"presentation_linecount" : 4,
 									"presentation_rect" : [ 151.5, 152.5, 129.0, 79.0 ],
 									"style" : "",
 									"text" : "This slider will controls the cutoff for mp-events output by the TUIO..."
@@ -22319,6 +22364,7 @@
 																	"numinlets" : 1,
 																	"numoutlets" : 0,
 																	"patching_rect" : [ 349.0, 168.0, 321.0, 51.0 ],
+																	"presentation_linecount" : 3,
 																	"presentation_rect" : [ 349.0, 168.0, 321.0, 51.0 ],
 																	"style" : "",
 																	"text" : "Optional processing can be performed here, but only \"pure functions\" will work. For non-pure function, it will be necessary to use a dedicated mp-block."
@@ -22558,6 +22604,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 102.0, 214.0, 318.0, 64.0 ],
+													"presentation_linecount" : 4,
 													"presentation_rect" : [ 102.0, 214.0, 318.0, 64.0 ],
 													"style" : "",
 													"text" : "If we do not assign several output params to a single input params (as is the case above with position.y mapped to both velocity and cutoff), we can make it slightly simpler"
@@ -22618,6 +22665,7 @@
 																	"numinlets" : 1,
 																	"numoutlets" : 0,
 																	"patching_rect" : [ 324.0, 96.0, 150.0, 60.0 ],
+																	"presentation_linecount" : 4,
 																	"presentation_rect" : [ 324.0, 96.0, 150.0, 60.0 ],
 																	"style" : "",
 																	"text" : "beware that this would cause badly formatted messages if some parameters are skipped"
@@ -22820,6 +22868,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 205.0, 122.5, 205.0, 51.0 ],
+													"presentation_linecount" : 3,
 													"presentation_rect" : [ 205.0, 122.5, 205.0, 51.0 ],
 													"style" : "",
 													"text" : "This is the general way to map incoming mp-event parameters onto other parameters."
@@ -23090,6 +23139,7 @@
 																	"numinlets" : 1,
 																	"numoutlets" : 0,
 																	"patching_rect" : [ 468.0, 168.0, 321.0, 51.0 ],
+																	"presentation_linecount" : 3,
 																	"presentation_rect" : [ 468.0, 168.0, 321.0, 51.0 ],
 																	"style" : "",
 																	"text" : "Optional processing can be performed here, but only \"pure functions\" will work. For non-pure function, it will be necessary to use a dedicated mp-block."
@@ -23406,6 +23456,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 102.0, 214.0, 318.0, 64.0 ],
+													"presentation_linecount" : 4,
 													"presentation_rect" : [ 102.0, 214.0, 318.0, 64.0 ],
 													"style" : "",
 													"text" : "If we do not assign several output params to a single input params (as is the case above with position.y mapped to both velocity and cutoff), we can make it slightly simpler"
@@ -23708,6 +23759,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 205.0, 122.5, 205.0, 51.0 ],
+													"presentation_linecount" : 3,
 													"presentation_rect" : [ 205.0, 122.5, 205.0, 51.0 ],
 													"style" : "",
 													"text" : "This is the general way to map incoming mp-event parameters onto other parameters."
@@ -25188,13 +25240,13 @@
 									"presentation_rect" : [ 87.5, 462.287109, 175.0, 31.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_mmin" : -70.0,
-											"parameter_longname" : "live.gain~[15]",
 											"parameter_mmax" : 6.0,
 											"parameter_initial" : [ 0.0 ],
 											"parameter_shortname" : "live.gain~",
 											"parameter_type" : 0,
-											"parameter_unitstyle" : 4
+											"parameter_unitstyle" : 4,
+											"parameter_mmin" : -70.0,
+											"parameter_longname" : "live.gain~[15]"
 										}
 
 									}
@@ -25244,6 +25296,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 19.0, 42.0, 593.0, 39.0 ],
+									"presentation_linecount" : 2,
 									"presentation_rect" : [ 19.0, 42.0, 593.0, 39.0 ],
 									"style" : "",
 									"text" : "Use mp.event.overload to add parameters from other mp-event to a mp-event.\nNote that a mp-event can declare itself as a guest from another mp-event using this object !"
@@ -25559,6 +25612,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 62.5, 46.0, 457.0, 56.0 ],
+									"presentation_linecount" : 3,
 									"presentation_rect" : [ 62.5, 46.0, 457.0, 56.0 ],
 									"style" : "",
 									"text" : "The guestlist is a powerful feature that let you declare global channels on the fly.\nAll the events whose ID are on the guestlist of another event will be allowed to send parameters to the voice allocated to that other event."
@@ -25971,6 +26025,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 205.0, 122.5, 205.0, 51.0 ],
+													"presentation_linecount" : 3,
 													"presentation_rect" : [ 205.0, 122.5, 205.0, 51.0 ],
 													"style" : "",
 													"text" : "This is the general way to map incoming mp-event parameters onto other parameters."
@@ -26149,6 +26204,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 450.0, 328.5, 306.0, 37.0 ],
+									"presentation_linecount" : 2,
 									"presentation_rect" : [ 450.0, 328.5, 306.0, 37.0 ],
 									"style" : "",
 									"text" : "2) ... so that, the \"parent\" mp-event will be able to send global control on its \"child\" mp-event."
@@ -26166,6 +26222,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 379.5, 272.0, 302.0, 37.0 ],
+									"presentation_linecount" : 2,
 									"presentation_rect" : [ 379.5, 272.0, 302.0, 37.0 ],
 									"style" : "",
 									"text" : "1) mp-events generated by mp.note2chord will add the mp-event that triggered them to their guest list..."
@@ -26230,6 +26287,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 100.0, 196.0, 175.0, 51.0 ],
+													"presentation_linecount" : 3,
 													"presentation_rect" : [ 100.0, 196.0, 175.0, 51.0 ],
 													"style" : "",
 													"text" : "we'll always pass the cutoff as a modulating (updating) param"
@@ -26534,6 +26592,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 164.5, 16.5, 313.0, 52.0 ],
+													"presentation_linecount" : 2,
 													"presentation_rect" : [ 164.5, 16.5, 313.0, 52.0 ],
 													"style" : "",
 													"text" : "Here we use the same technique to control the visual representation both locally and globally ."
@@ -26551,6 +26610,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 194.0, 144.5, 312.0, 37.0 ],
+													"presentation_linecount" : 2,
 													"presentation_rect" : [ 194.0, 144.5, 312.0, 37.0 ],
 													"style" : "",
 													"text" : "their color is tied to the parent event, which is related to the finger touch rather than individual notes."
@@ -26568,6 +26628,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 152.5, 77.5, 347.5, 37.0 ],
+													"presentation_linecount" : 2,
 													"presentation_rect" : [ 152.5, 77.5, 347.5, 37.0 ],
 													"style" : "",
 													"text" : "circle representing notes are controlled locally and triggered by all the child mp-events generated by mp.note2chord."
@@ -28621,13 +28682,13 @@
 									"presentation_rect" : [ 133.499939, 508.287109, 175.0, 31.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_mmin" : -70.0,
-											"parameter_longname" : "live.gain~[5]",
 											"parameter_mmax" : 6.0,
 											"parameter_initial" : [ 0.0 ],
 											"parameter_shortname" : "live.gain~",
 											"parameter_type" : 0,
-											"parameter_unitstyle" : 4
+											"parameter_unitstyle" : 4,
+											"parameter_mmin" : -70.0,
+											"parameter_longname" : "live.gain~[5]"
 										}
 
 									}
@@ -28920,6 +28981,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 31.5, 41.0, 447.0, 39.0 ],
+									"presentation_linecount" : 2,
 									"presentation_rect" : [ 31.5, 41.0, 447.0, 39.0 ],
 									"style" : "",
 									"text" : "Here is a slight modification of the LFO, \nso that we use the LFO phase to control the z-rotation of our visualization cursors."
@@ -29785,6 +29847,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 205.0, 122.5, 205.0, 51.0 ],
+													"presentation_linecount" : 3,
 													"presentation_rect" : [ 205.0, 122.5, 205.0, 51.0 ],
 													"style" : "",
 													"text" : "This is the general way to map incoming mp-event parameters onto other parameters."
@@ -30180,6 +30243,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 205.0, 122.5, 205.0, 51.0 ],
+													"presentation_linecount" : 3,
 													"presentation_rect" : [ 205.0, 122.5, 205.0, 51.0 ],
 													"style" : "",
 													"text" : "This is the general way to map incoming mp-event parameters onto other parameters."
@@ -30706,6 +30770,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 205.0, 122.5, 205.0, 51.0 ],
+													"presentation_linecount" : 3,
 													"presentation_rect" : [ 205.0, 122.5, 205.0, 51.0 ],
 													"style" : "",
 													"text" : "This is the general way to map incoming mp-event parameters onto other parameters."
@@ -30885,6 +30950,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 409.500031, 310.0, 197.0, 51.0 ],
+									"presentation_linecount" : 3,
 									"presentation_rect" : [ 409.500031, 310.0, 197.0, 51.0 ],
 									"style" : "",
 									"text" : "we change the LFO to a phasor (+ cos) so that we can use this data to rotate the 2D cursors"
@@ -33126,6 +33192,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 102.5, 329.560608, 167.0, 35.0 ],
+									"presentation_linecount" : 2,
 									"presentation_rect" : [ 102.5, 329.560608, 167.0, 35.0 ],
 									"style" : "",
 									"text" : "mp.note2chord 20 @size 2 @pitchoffset -0.1 0.1"
@@ -33243,6 +33310,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 88.0, 273.0, 52.0, 35.0 ],
+													"presentation_linecount" : 2,
 													"presentation_rect" : [ 88.0, 273.0, 52.0, 35.0 ],
 													"style" : "",
 													"text" : "418 state 0"
@@ -33986,6 +34054,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 102.5, 262.0, 155.0, 35.0 ],
+									"presentation_linecount" : 2,
 									"presentation_rect" : [ 102.5, 262.0, 155.0, 35.0 ],
 									"style" : "",
 									"text" : "mp.note2chord 10 @size 2 @pitchoffset 0 7"
@@ -34322,13 +34391,13 @@
 									"presentation_rect" : [ 102.499939, 543.287109, 175.0, 31.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_mmin" : -70.0,
-											"parameter_longname" : "live.gain~[7]",
 											"parameter_mmax" : 6.0,
 											"parameter_initial" : [ 0.0 ],
 											"parameter_shortname" : "live.gain~",
 											"parameter_type" : 0,
-											"parameter_unitstyle" : 4
+											"parameter_unitstyle" : 4,
+											"parameter_mmin" : -70.0,
+											"parameter_longname" : "live.gain~[7]"
 										}
 
 									}
@@ -34954,6 +35023,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 284.0, 481.0, 131.0, 35.0 ],
+													"presentation_linecount" : 2,
 													"presentation_rect" : [ 284.0, 481.0, 131.0, 35.0 ],
 													"style" : "",
 													"text" : "-1.10457 0.828427 -0.000004"
@@ -36254,6 +36324,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 34.0, 53.0, 424.0, 33.0 ],
+									"presentation_linecount" : 2,
 									"presentation_rect" : [ 34.0, 53.0, 424.0, 33.0 ],
 									"style" : "",
 									"text" : "an mp-block does not necessarily send a state 1, but it should always send a state 0 when its job is done, otherwise it will result in voices never released."
@@ -36315,6 +36386,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 64.0, 200.0, 166.0, 60.0 ],
+													"presentation_linecount" : 4,
 													"presentation_rect" : [ 64.0, 200.0, 166.0, 60.0 ],
 													"style" : "",
 													"text" : "allow allocation on state 2 to handle lost MP-events and MP-events arriving after connection ?"
@@ -36331,6 +36403,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 64.0, 131.0, 150.0, 47.0 ],
+													"presentation_linecount" : 3,
 													"presentation_rect" : [ 64.0, 131.0, 150.0, 47.0 ],
 													"style" : "",
 													"text" : "merge events: \n- mp.events.&&\n- mp.events.||"
@@ -36737,6 +36810,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 205.0, 122.5, 205.0, 51.0 ],
+													"presentation_linecount" : 3,
 													"presentation_rect" : [ 205.0, 122.5, 205.0, 51.0 ],
 													"style" : "",
 													"text" : "This is the general way to map incoming mp-event parameters onto other parameters."
@@ -37132,6 +37206,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 205.0, 122.5, 205.0, 51.0 ],
+													"presentation_linecount" : 3,
 													"presentation_rect" : [ 205.0, 122.5, 205.0, 51.0 ],
 													"style" : "",
 													"text" : "This is the general way to map incoming mp-event parameters onto other parameters."
@@ -37658,6 +37733,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 205.0, 122.5, 205.0, 51.0 ],
+													"presentation_linecount" : 3,
 													"presentation_rect" : [ 205.0, 122.5, 205.0, 51.0 ],
 													"style" : "",
 													"text" : "This is the general way to map incoming mp-event parameters onto other parameters."
@@ -39652,6 +39728,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 73.5, 380.5, 149.0, 35.0 ],
+									"presentation_linecount" : 2,
 									"presentation_rect" : [ 73.5, 380.5, 149.0, 35.0 ],
 									"style" : "",
 									"text" : "mp.note2chord 10 @size 2 @pitchoffset -0.1 0.1"
@@ -40359,6 +40436,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 73.5, 302.5, 149.0, 35.0 ],
+									"presentation_linecount" : 2,
 									"presentation_rect" : [ 73.5, 302.5, 149.0, 35.0 ],
 									"style" : "",
 									"text" : "mp.note2chord 5 @size 2 @pitchoffset 0 7"
@@ -40709,13 +40787,13 @@
 									"presentation_rect" : [ 73.499939, 545.287109, 175.0, 31.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_mmin" : -70.0,
-											"parameter_longname" : "live.gain~[6]",
 											"parameter_mmax" : 6.0,
 											"parameter_initial" : [ 0.0 ],
 											"parameter_shortname" : "live.gain~",
 											"parameter_type" : 0,
-											"parameter_unitstyle" : 4
+											"parameter_unitstyle" : 4,
+											"parameter_mmin" : -70.0,
+											"parameter_longname" : "live.gain~[6]"
 										}
 
 									}
@@ -41542,6 +41620,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 52.0, 110.0, 124.0, 33.0 ],
+													"presentation_linecount" : 2,
 													"presentation_rect" : [ 52.0, 110.0, 124.0, 33.0 ],
 													"style" : "",
 													"text" : "this one is just to see our finger position"
@@ -45920,6 +45999,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "bang" ],
 													"patching_rect" : [ 50.0, 100.0, 195.0, 35.0 ],
+													"presentation_linecount" : 2,
 													"presentation_rect" : [ 50.0, 100.0, 195.0, 35.0 ],
 													"style" : "",
 													"text" : "metro @active 1 @interval 1 ticks @quantize 1 ticks"
@@ -48663,13 +48743,13 @@
 									"presentation_rect" : [ 165.0, 478.589478, 175.0, 30.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_mmin" : -70.0,
-											"parameter_longname" : "live.gain~[8]",
 											"parameter_mmax" : 6.0,
 											"parameter_initial" : [ 0.0 ],
 											"parameter_shortname" : "live.gain~",
 											"parameter_type" : 0,
-											"parameter_unitstyle" : 4
+											"parameter_unitstyle" : 4,
+											"parameter_mmin" : -70.0,
+											"parameter_longname" : "live.gain~[8]"
 										}
 
 									}
@@ -48975,7 +49055,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 524.0, 176.0, 558.0, 490.0 ],
+						"rect" : [ 97.0, 341.0, 558.0, 490.0 ],
 						"bgcolor" : [ 0.815686, 0.819608, 0.780392, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
@@ -49003,16 +49083,18 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
-									"id" : "obj-8",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 78.0, 283.0, 34.0, 22.0 ],
-									"presentation_rect" : [ 78.0, 283.0, 34.0, 22.0 ],
+									"id" : "obj-18",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 444.0, 278.0, 34.0, 22.0 ],
+									"presentation_rect" : [ 444.0, 278.0, 34.0, 22.0 ],
 									"style" : "",
-									"text" : "print"
+									"text" : "flush"
 								}
 
 							}
@@ -49340,6 +49422,20 @@
 														"subpatcher_template" : "",
 														"boxes" : [ 															{
 																"box" : 																{
+																	"id" : "obj-3",
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 2,
+																	"outlettype" : [ "float", "float" ],
+																	"patching_rect" : [ 50.0, 132.0, 74.0, 22.0 ],
+																	"presentation_rect" : [ 50.0, 132.0, 74.0, 22.0 ],
+																	"style" : "",
+																	"text" : "unpack 0. 0."
+																}
+
+															}
+, 															{
+																"box" : 																{
 																	"fontname" : "Arial",
 																	"fontsize" : 12.0,
 																	"id" : "obj-6",
@@ -49364,6 +49460,7 @@
 																	"numinlets" : 1,
 																	"numoutlets" : 0,
 																	"patching_rect" : [ 468.0, 168.0, 321.0, 51.0 ],
+																	"presentation_linecount" : 3,
 																	"presentation_rect" : [ 468.0, 168.0, 321.0, 51.0 ],
 																	"style" : "",
 																	"text" : "Optional processing can be performed here, but only \"pure functions\" will work. For non-pure function, it will be necessary to use a dedicated mp-block."
@@ -49522,13 +49619,13 @@
 																	"fontsize" : 12.0,
 																	"id" : "obj-38",
 																	"maxclass" : "newobj",
-																	"numinlets" : 4,
-																	"numoutlets" : 4,
-																	"outlettype" : [ "", "", "", "" ],
+																	"numinlets" : 2,
+																	"numoutlets" : 2,
+																	"outlettype" : [ "", "" ],
 																	"patching_rect" : [ 50.0, 98.0, 541.0, 22.0 ],
 																	"presentation_rect" : [ 50.0, 98.0, 541.0, 22.0 ],
 																	"style" : "",
-																	"text" : "route x y p"
+																	"text" : "route xyz"
 																}
 
 															}
@@ -49622,6 +49719,20 @@
 															}
 , 															{
 																"patchline" : 																{
+																	"destination" : [ "obj-10", 0 ],
+																	"source" : [ "obj-3", 1 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-2", 0 ],
+																	"source" : [ "obj-3", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
 																	"destination" : [ "obj-17", 0 ],
 																	"midpoints" : [ 59.5, 249.5, 59.5, 249.5 ],
 																	"source" : [ "obj-30", 0 ]
@@ -49630,22 +49741,15 @@
 															}
 , 															{
 																"patchline" : 																{
-																	"destination" : [ "obj-10", 0 ],
+																	"destination" : [ "obj-17", 0 ],
+																	"midpoints" : [ 581.5, 254.5, 59.5, 254.5 ],
 																	"source" : [ "obj-38", 1 ]
 																}
 
 															}
 , 															{
 																"patchline" : 																{
-																	"destination" : [ "obj-17", 0 ],
-																	"midpoints" : [ 581.5, 256.5, 59.5, 256.5 ],
-																	"source" : [ "obj-38", 3 ]
-																}
-
-															}
-, 															{
-																"patchline" : 																{
-																	"destination" : [ "obj-2", 0 ],
+																	"destination" : [ "obj-3", 0 ],
 																	"source" : [ "obj-38", 0 ]
 																}
 
@@ -49680,6 +49784,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 102.0, 214.0, 318.0, 64.0 ],
+													"presentation_linecount" : 4,
 													"presentation_rect" : [ 102.0, 214.0, 318.0, 64.0 ],
 													"style" : "",
 													"text" : "If we do not assign several output params to a single input params (as is the case above with position.y mapped to both velocity and cutoff), we can make it slightly simpler"
@@ -49740,6 +49845,7 @@
 																	"numinlets" : 1,
 																	"numoutlets" : 0,
 																	"patching_rect" : [ 324.0, 96.0, 150.0, 60.0 ],
+																	"presentation_linecount" : 4,
 																	"presentation_rect" : [ 324.0, 96.0, 150.0, 60.0 ],
 																	"style" : "",
 																	"text" : "beware that this would cause badly formatted messages if some parameters are skipped"
@@ -49942,25 +50048,10 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 205.0, 122.5, 205.0, 51.0 ],
+													"presentation_linecount" : 3,
 													"presentation_rect" : [ 205.0, 122.5, 205.0, 51.0 ],
 													"style" : "",
 													"text" : "This is the general way to map incoming mp-event parameters onto other parameters."
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 12.0,
-													"id" : "obj-9",
-													"maxclass" : "newobj",
-													"numinlets" : 2,
-													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 35.0, 201.0, 47.0, 22.0 ],
-													"presentation_rect" : [ 35.0, 201.0, 47.0, 22.0 ],
-													"style" : "",
-													"text" : "zl rot 1"
 												}
 
 											}
@@ -49977,22 +50068,6 @@
 													"presentation_rect" : [ 35.0, 173.0, 139.0, 22.0 ],
 													"style" : "",
 													"text" : "zl join"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 12.0,
-													"id" : "obj-37",
-													"maxclass" : "newobj",
-													"numinlets" : 2,
-													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 35.0, 74.0, 51.0, 22.0 ],
-													"presentation_rect" : [ 35.0, 74.0, 51.0, 22.0 ],
-													"style" : "",
-													"text" : "zl rot -1"
 												}
 
 											}
@@ -50066,28 +50141,14 @@
 , 											{
 												"patchline" : 												{
 													"destination" : [ "obj-35", 0 ],
-													"source" : [ "obj-37", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-37", 0 ],
 													"source" : [ "obj-6", 0 ]
 												}
 
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-9", 0 ],
-													"source" : [ "obj-8", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
 													"destination" : [ "obj-7", 0 ],
-													"source" : [ "obj-9", 0 ]
+													"source" : [ "obj-8", 0 ]
 												}
 
 											}
@@ -50225,6 +50286,7 @@
 																	"numinlets" : 1,
 																	"numoutlets" : 0,
 																	"patching_rect" : [ 468.0, 168.0, 321.0, 51.0 ],
+																	"presentation_linecount" : 3,
 																	"presentation_rect" : [ 468.0, 168.0, 321.0, 51.0 ],
 																	"style" : "",
 																	"text" : "Optional processing can be performed here, but only \"pure functions\" will work. For non-pure function, it will be necessary to use a dedicated mp-block."
@@ -50541,6 +50603,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 102.0, 214.0, 318.0, 64.0 ],
+													"presentation_linecount" : 4,
 													"presentation_rect" : [ 102.0, 214.0, 318.0, 64.0 ],
 													"style" : "",
 													"text" : "If we do not assign several output params to a single input params (as is the case above with position.y mapped to both velocity and cutoff), we can make it slightly simpler"
@@ -50843,6 +50906,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 205.0, 122.5, 205.0, 51.0 ],
+													"presentation_linecount" : 3,
 													"presentation_rect" : [ 205.0, 122.5, 205.0, 51.0 ],
 													"style" : "",
 													"text" : "This is the general way to map incoming mp-event parameters onto other parameters."
@@ -51614,22 +51678,6 @@
 																"box" : 																{
 																	"fontname" : "Arial",
 																	"fontsize" : 12.0,
-																	"id" : "obj-18",
-																	"maxclass" : "newobj",
-																	"numinlets" : 2,
-																	"numoutlets" : 2,
-																	"outlettype" : [ "", "" ],
-																	"patching_rect" : [ 24.5, 379.0, 47.0, 22.0 ],
-																	"presentation_rect" : [ 24.5, 379.0, 47.0, 22.0 ],
-																	"style" : "",
-																	"text" : "zl rot 1"
-																}
-
-															}
-, 															{
-																"box" : 																{
-																	"fontname" : "Arial",
-																	"fontsize" : 12.0,
 																	"id" : "obj-11",
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
@@ -51772,22 +51820,6 @@
 															}
 , 															{
 																"box" : 																{
-																	"fontname" : "Arial",
-																	"fontsize" : 12.0,
-																	"id" : "obj-7",
-																	"maxclass" : "newobj",
-																	"numinlets" : 2,
-																	"numoutlets" : 2,
-																	"outlettype" : [ "", "" ],
-																	"patching_rect" : [ 24.5, 86.0, 51.0, 22.0 ],
-																	"presentation_rect" : [ 24.5, 86.0, 51.0, 22.0 ],
-																	"style" : "",
-																	"text" : "zl rot -1"
-																}
-
-															}
-, 															{
-																"box" : 																{
 																	"comment" : "",
 																	"id" : "obj-32",
 																	"index" : 1,
@@ -51818,7 +51850,7 @@
  ],
 														"lines" : [ 															{
 																"patchline" : 																{
-																	"destination" : [ "obj-18", 0 ],
+																	"destination" : [ "obj-32", 0 ],
 																	"source" : [ "obj-10", 0 ]
 																}
 
@@ -51910,13 +51942,6 @@
 															}
 , 															{
 																"patchline" : 																{
-																	"destination" : [ "obj-32", 0 ],
-																	"source" : [ "obj-18", 0 ]
-																}
-
-															}
-, 															{
-																"patchline" : 																{
 																	"destination" : [ "obj-15", 4 ],
 																	"source" : [ "obj-19", 0 ]
 																}
@@ -51970,7 +51995,7 @@
 															}
 , 															{
 																"patchline" : 																{
-																	"destination" : [ "obj-7", 0 ],
+																	"destination" : [ "obj-8", 0 ],
 																	"source" : [ "obj-42", 0 ]
 																}
 
@@ -51979,13 +52004,6 @@
 																"patchline" : 																{
 																	"destination" : [ "obj-3", 0 ],
 																	"source" : [ "obj-5", 0 ]
-																}
-
-															}
-, 															{
-																"patchline" : 																{
-																	"destination" : [ "obj-8", 0 ],
-																	"source" : [ "obj-7", 0 ]
 																}
 
 															}
@@ -52175,17 +52193,17 @@
 									"orientation" : 1,
 									"outlettype" : [ "signal", "", "float", "list" ],
 									"parameter_enable" : 1,
-									"patching_rect" : [ 110.5, 382.287109, 175.0, 31.0 ],
-									"presentation_rect" : [ 110.5, 382.287109, 175.0, 31.0 ],
+									"patching_rect" : [ 110.5, 382.287109, 175.0, 30.0 ],
+									"presentation_rect" : [ 110.5, 382.287109, 175.0, 30.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_mmin" : -70.0,
-											"parameter_longname" : "live.gain~[2]",
 											"parameter_mmax" : 6.0,
 											"parameter_initial" : [ 0.0 ],
 											"parameter_shortname" : "live.gain~",
 											"parameter_type" : 0,
-											"parameter_unitstyle" : 4
+											"parameter_unitstyle" : 4,
+											"parameter_mmin" : -70.0,
+											"parameter_longname" : "live.gain~[2]"
 										}
 
 									}
@@ -52256,14 +52274,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-8", 0 ],
-									"order" : 2,
-									"source" : [ "obj-10", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-85", 0 ],
 									"order" : 1,
 									"source" : [ "obj-10", 0 ]
@@ -52289,6 +52299,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-87", 0 ],
 									"source" : [ "obj-17", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-85", 1 ],
+									"source" : [ "obj-18", 0 ]
 								}
 
 							}
@@ -52469,6 +52486,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 32.5, 34.0, 587.0, 56.0 ],
+									"presentation_linecount" : 3,
 									"presentation_rect" : [ 32.5, 34.0, 587.0, 56.0 ],
 									"style" : "",
 									"text" : "This example shows how nested poly~ can be patched with the mp-framework.\nIn particular this makes use of the right outlet of mp.router object, that notifies when all voices are released. This enables parent poly~ voice to be mute from that moment."
@@ -52934,6 +52952,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 102.0, 214.0, 318.0, 64.0 ],
+													"presentation_linecount" : 4,
 													"presentation_rect" : [ 102.0, 214.0, 318.0, 64.0 ],
 													"style" : "",
 													"text" : "If we do not assign several output params to a single input params (as is the case above with position.y mapped to both velocity and cutoff), we can make it slightly simpler"
@@ -53236,6 +53255,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 205.0, 122.5, 205.0, 51.0 ],
+													"presentation_linecount" : 3,
 													"presentation_rect" : [ 205.0, 122.5, 205.0, 51.0 ],
 													"style" : "",
 													"text" : "This is the general way to map incoming mp-event parameters onto other parameters."
@@ -53759,13 +53779,13 @@
 									"presentation_rect" : [ 79.5, 339.287109, 175.0, 31.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_mmin" : -70.0,
-											"parameter_longname" : "live.gain~[3]",
 											"parameter_mmax" : 6.0,
 											"parameter_initial" : [ 0.0 ],
 											"parameter_shortname" : "live.gain~",
 											"parameter_type" : 0,
-											"parameter_unitstyle" : 4
+											"parameter_unitstyle" : 4,
+											"parameter_mmin" : -70.0,
+											"parameter_longname" : "live.gain~[3]"
 										}
 
 									}
@@ -53948,19 +53968,19 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-7::obj-43" : [ "live.gain~[14]", "live.gain~", 0 ],
-			"obj-48::obj-43" : [ "live.gain~[3]", "live.gain~", 0 ],
-			"obj-5::obj-43" : [ "live.gain~[7]", "live.gain~", 0 ],
-			"obj-12::obj-14" : [ "live.gain~[10]", "live.gain~", 0 ],
-			"obj-8::obj-87" : [ "live.gain~[15]", "live.gain~", 0 ],
-			"obj-19::obj-87" : [ "live.gain~[16]", "live.gain~", 0 ],
 			"obj-3::obj-87" : [ "live.gain~[11]", "live.gain~", 0 ],
-			"obj-11::obj-87" : [ "live.gain~[12]", "live.gain~", 0 ],
-			"obj-15::obj-87" : [ "live.gain~[13]", "live.gain~", 0 ],
-			"obj-1::obj-87" : [ "live.gain~[8]", "live.gain~", 0 ],
 			"obj-6::obj-43" : [ "live.gain~[5]", "live.gain~", 0 ],
+			"obj-1::obj-87" : [ "live.gain~[8]", "live.gain~", 0 ],
+			"obj-48::obj-43" : [ "live.gain~[3]", "live.gain~", 0 ],
 			"obj-2::obj-43" : [ "live.gain~[6]", "live.gain~", 0 ],
 			"obj-50::obj-87" : [ "live.gain~[2]", "live.gain~", 0 ],
+			"obj-19::obj-87" : [ "live.gain~[16]", "live.gain~", 0 ],
+			"obj-7::obj-43" : [ "live.gain~[14]", "live.gain~", 0 ],
+			"obj-12::obj-14" : [ "live.gain~[10]", "live.gain~", 0 ],
+			"obj-8::obj-87" : [ "live.gain~[15]", "live.gain~", 0 ],
+			"obj-15::obj-87" : [ "live.gain~[13]", "live.gain~", 0 ],
+			"obj-11::obj-87" : [ "live.gain~[12]", "live.gain~", 0 ],
+			"obj-5::obj-43" : [ "live.gain~[7]", "live.gain~", 0 ],
 			"parameterbanks" : 			{
 
 			}
@@ -54052,13 +54072,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mp.2Dcursors.p.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony/patchers",
-				"patcherrelativepath" : "../patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "mp.id2color.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony/patchers",
 				"patcherrelativepath" : "../patchers",
@@ -54087,13 +54100,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "pianophase.coll",
-				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony/media",
-				"patcherrelativepath" : "../media",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "mp.makenoteID.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony/patchers",
 				"patcherrelativepath" : "../patchers",
@@ -54104,6 +54110,13 @@
 				"name" : "openTransport.maxpat",
 				"bootpath" : "C74:/help/max",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pianophase.coll",
+				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony/media",
+				"patcherrelativepath" : "../media",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
@@ -54611,10 +54624,10 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mp-helper.coll",
-				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony/extras",
-				"patcherrelativepath" : "../extras",
-				"type" : "TEXT",
+				"name" : "mp-icon.png",
+				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony",
+				"patcherrelativepath" : "..",
+				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{

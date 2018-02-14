@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 59.0, 81.0, 659.0, 711.0 ],
+		"rect" : [ 74.0, 120.0, 659.0, 711.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,19 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 232.0, 327.0, 32.0, 22.0 ],
+					"presentation_rect" : [ 232.0, 327.0, 32.0, 22.0 ],
+					"style" : "",
+					"text" : "print"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontsize" : 11.0,
 					"id" : "obj-29",
@@ -1507,10 +1520,10 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 116.0, 250.501343, 123.0, 22.0 ],
-					"presentation_rect" : [ 116.0, 250.501343, 123.0, 22.0 ],
+					"patching_rect" : [ 116.0, 250.501343, 107.0, 22.0 ],
+					"presentation_rect" : [ 116.0, 250.501343, 107.0, 22.0 ],
 					"style" : "",
-					"text" : "mp.TUIO.inputNS 1 1"
+					"text" : "mp.TUIO.input 1 1"
 				}
 
 			}
@@ -4061,8 +4074,7 @@
 									"id" : "obj-17",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
+									"numoutlets" : 0,
 									"patching_rect" : [ 27.0, 151.0, 297.0, 22.0 ],
 									"presentation_rect" : [ 27.0, 151.0, 297.0, 22.0 ],
 									"style" : "",
@@ -4217,7 +4229,7 @@
 					"patching_rect" : [ 81.0, 403.198975, 306.5, 22.0 ],
 					"presentation_rect" : [ 81.0, 403.198975, 306.5, 22.0 ],
 					"style" : "",
-					"text" : "mp.demoSynthNS2 10"
+					"text" : "mp.demoSynth 10"
 				}
 
 			}
@@ -4353,6 +4365,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
+					"order" : 1,
+					"source" : [ "obj-8", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"order" : 0,
 					"source" : [ "obj-8", 0 ]
 				}
 
@@ -4413,21 +4434,21 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "mp.demoSynthNS2.maxpat",
+				"name" : "mp.demoSynth.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mp.routerNS.maxpat",
+				"name" : "mp.router.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mp.demoSynthNS2.p.maxpat",
+				"name" : "mp.demoSynth.p.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
@@ -4455,20 +4476,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mp.2DcursorsNS.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mp.2DcursorsNS.p.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "mp.id2color.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony/patchers",
 				"patcherrelativepath" : ".",
@@ -4483,13 +4490,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mp.router.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "mp.TUI.toes.p.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony-TUI/patchers",
 				"patcherrelativepath" : "../../ModularPolyphony-TUI/patchers",
@@ -4497,7 +4497,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mp.TUIO.inputNS.maxpat",
+				"name" : "mp.TUIO.input.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
