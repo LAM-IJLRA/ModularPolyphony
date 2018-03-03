@@ -2194,7 +2194,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "bang", "bang", "", "int" ],
-					"patching_rect" : [ 5.0, 5.5, 52.84375, 37.0 ],
+					"patching_rect" : [ 5.0, 91.5, 52.84375, 37.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 386.0625, 124.75, 92.470032, 20.274523 ]
 				}
@@ -2228,7 +2228,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 5.0, 5.5, 52.84375, 37.0 ],
-					"pic" : "mp-icon.png",
+					"pic" : "Macintosh HD:/Users/vg/Documents/Max 7/Packages/ModularPolyphony/mp-icon.png",
 					"presentation_rect" : [ 5.0, 5.5, 52.84375, 37.0 ]
 				}
 
