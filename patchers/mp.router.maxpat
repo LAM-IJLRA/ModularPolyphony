@@ -6810,7 +6810,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 766.0, 306.0, 640.0, 480.0 ],
+						"rect" : [ 42.0, 377.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -6864,9 +6864,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 4,
 									"outlettype" : [ "dictionary", "", "", "" ],
-									"patching_rect" : [ 303.0, 332.081665, 248.0, 22.0 ],
-									"presentation_linecount" : 2,
-									"presentation_rect" : [ 303.0, 332.081665, 248.0, 22.0 ],
+									"patching_rect" : [ 303.0, 332.081665, 244.0, 35.0 ],
+									"presentation_rect" : [ 303.0, 332.081665, 244.0, 35.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 0,
 										"parameter_enable" : 0
@@ -6884,10 +6883,11 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 225.0, 139.0, 125.0, 22.0 ],
-									"presentation_rect" : [ 225.0, 139.0, 125.0, 22.0 ],
+									"patching_rect" : [ 225.0, 139.0, 205.0, 22.0 ],
+									"presentation_linecount" : 2,
+									"presentation_rect" : [ 225.0, 139.0, 205.0, 22.0 ],
 									"style" : "",
-									"text" : "target 0, end 0 state 0"
+									"text" : "target 0, start 0 state 0, end 0 state 0"
 								}
 
 							}
@@ -8083,13 +8083,11 @@
 , 											{
 												"box" : 												{
 													"id" : "obj-8",
-													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 4,
 													"outlettype" : [ "", "", "", "" ],
 													"patching_rect" : [ 281.0, 137.0, 167.0, 22.0 ],
-													"presentation_linecount" : 2,
 													"presentation_rect" : [ 281.0, 137.0, 167.0, 22.0 ],
 													"saved_object_attributes" : 													{
 														"embed" : 0
@@ -13313,7 +13311,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "list" ],
 					"patching_rect" : [ 40.0, 30.0, 25.0, 25.0 ],
 					"presentation_rect" : [ 40.0, 30.0, 25.0, 25.0 ],
 					"style" : ""

@@ -551,7 +551,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 18.9375, 199.0, 548.0, 396.0 ],
 					"readonly" : 1,
-					"rows" : 5,
+					"rows" : 7,
 					"selmode" : 3
 				}
 
@@ -1309,7 +1309,7 @@
 					"id" : "obj-33",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "mp.TUI.helpheader.maxpat",
+					"name" : "mp.helpheader.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
@@ -1717,17 +1717,10 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "mp.TUI.helpheader.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony-TUI/patchers",
-				"patcherrelativepath" : "../../ModularPolyphony-TUI/patchers",
+				"name" : "mp.helpheader.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony/patchers",
+				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mp.TUI-icon.png",
-				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony-TUI/media",
-				"patcherrelativepath" : "../../ModularPolyphony-TUI/media",
-				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{

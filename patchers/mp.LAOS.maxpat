@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 251.0, 191.0, 470.0, 621.0 ],
+		"rect" : [ 251.0, 191.0, 802.0, 621.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,48 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-28",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "clear" ],
+					"patching_rect" : [ 248.0, 449.0, 41.0, 22.0 ],
+					"presentation_rect" : [ 248.0, 449.0, 41.0, 22.0 ],
+					"style" : "",
+					"text" : "t clear"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-27",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 251.0, 419.0, 34.0, 22.0 ],
+					"presentation_rect" : [ 251.0, 419.0, 34.0, 22.0 ],
+					"style" : "",
+					"text" : "sel 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 26.833336, 393.306915, 50.0, 22.0 ],
+					"presentation_rect" : [ 26.833336, 393.306915, 50.0, 22.0 ],
+					"style" : "",
+					"text" : "13178"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-53",
 					"maxclass" : "newobj",
@@ -156,7 +198,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 99.0, 420.469666, 105.0, 22.0 ],
-					"presentation_linecount" : 4,
 					"presentation_rect" : [ 99.0, 420.469666, 105.0, 22.0 ],
 					"style" : "",
 					"text" : "get $1, remove $1"
@@ -328,15 +369,15 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "dictionary", "", "", "" ],
-					"patching_rect" : [ 99.0, 447.632416, 107.0, 22.0 ],
-					"presentation_rect" : [ 99.0, 447.632416, 107.0, 22.0 ],
+					"patching_rect" : [ 99.0, 447.632416, 151.0, 22.0 ],
+					"presentation_rect" : [ 99.0, 447.632416, 151.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0,
 						"parameter_enable" : 0
 					}
 ,
 					"style" : "",
-					"text" : "dict #0.params"
+					"text" : "dict #0.params @quiet 1"
 				}
 
 			}
@@ -526,7 +567,7 @@
 				"box" : 				{
 					"comment" : "mp-message input",
 					"id" : "obj-93",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -541,7 +582,7 @@
 				"box" : 				{
 					"comment" : "mp-message output",
 					"id" : "obj-95",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -631,6 +672,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-28", 0 ],
+					"source" : [ "obj-27", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-84", 0 ],
+					"source" : [ "obj-28", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
 					"source" : [ "obj-3", 0 ]
 				}
@@ -708,7 +763,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-10", 1 ],
+					"order" : 1,
+					"source" : [ "obj-48", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-42", 0 ],
+					"order" : 0,
 					"source" : [ "obj-48", 0 ]
 				}
 
@@ -764,7 +828,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-27", 0 ],
+					"order" : 0,
+					"source" : [ "obj-66", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-73", 1 ],
+					"order" : 1,
 					"source" : [ "obj-66", 0 ]
 				}
 
@@ -846,30 +919,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "mp.uID.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "LAM.LAOS.maxpat",
-				"bootpath" : "~/Documents/Max/Packages/lam-lib/patchers",
-				"patcherrelativepath" : "../../../../Max/Packages/lam-lib/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mp.oo2ouo.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }

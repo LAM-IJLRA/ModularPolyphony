@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 427.0, 79.0, 858.0, 554.0 ],
+		"rect" : [ 100.0, 100.0, 858.0, 554.0 ],
 		"bgcolor" : [ 0.9, 0.91, 0.91, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -596,7 +596,7 @@
 					"patching_rect" : [ 150.0, 375.0, 104.0, 22.0 ],
 					"presentation_rect" : [ 150.0, 375.0, 104.0, 22.0 ],
 					"style" : "",
-					"text" : "val 31. 22."
+					"text" : "val 0.048 0.066"
 				}
 
 			}
@@ -687,7 +687,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "mp.zl.join", "@obj-desc", "Like zl.join.", "@categories", "component" ],
+					"args" : [ "mp.zl.join", "@description", "Like zl.join but polyphonic", "@categories", "component" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
