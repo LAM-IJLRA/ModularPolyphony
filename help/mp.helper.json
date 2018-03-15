@@ -20,7 +20,7 @@
 	}
 ,
 	"mp.zl.join" : 	{
-		"description" : "A modular polyphony framework",
+		"description" : "Like zl.join but polyphonic",
 		"categories" : "component"
 	}
 ,
@@ -57,6 +57,10 @@
 	"mp.oo2ouo" : 	{
 		"categories" : "utilities",
 		"description" : "On/Off to On/Update/Off converter."
+	}
+,
+	"Polyphony" : 	{
+		"Modular" : "component"
 	}
 
 }
