@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 201.0, 212.0, 1019.0, 551.0 ],
+		"rect" : [ 201.0, 212.0, 706.0, 551.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -2227,9 +2227,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 5.0, 5.5, 52.84375, 37.0 ],
+					"patching_rect" : [ 7.0, 1.0, 50.0, 50.0 ],
 					"pic" : "Macintosh HD:/Users/vg/Documents/Max 7/Packages/ModularPolyphony/mp-icon.png",
-					"presentation_rect" : [ 5.0, 5.5, 52.84375, 37.0 ]
+					"presentation_rect" : [ 7.0, 1.0, 50.0, 50.0 ]
 				}
 
 			}
