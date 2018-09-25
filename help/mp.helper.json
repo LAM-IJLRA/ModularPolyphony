@@ -62,5 +62,10 @@
 	"Polyphony" : 	{
 		"Modular" : "component"
 	}
+,
+	"mp.state.change" : 	{
+		"categories" : "system",
+		"description" : "Detect state change per ID."
+	}
 
 }
