@@ -67,5 +67,10 @@
 		"categories" : "system",
 		"description" : "Detect state change per ID."
 	}
+,
+	"mp.filterpickers" : 	{
+		"categories" : "component",
+		"description" : "Pass only those cursors that had a state 1 (aka pickers)."
+	}
 
 }
