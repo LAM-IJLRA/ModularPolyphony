@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 377.0, 471.0, 831.0, 319.0 ],
+		"rect" : [ 370.0, 356.0, 831.0, 319.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,17 +38,6 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
-				"box" : 				{
-					"id" : "obj-1",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 159.0, 190.0, 32.0, 22.0 ],
-					"text" : "print"
-				}
-
-			}
-, 			{
 				"box" : 				{
 					"id" : "obj-33",
 					"maxclass" : "newobj",
@@ -118,7 +107,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "signal", "", "", "" ],
 					"patching_rect" : [ 44.0, 220.589478000000014, 370.0, 24.0 ],
-					"text" : "poly~ mp.demoSynth.fast.p 1 args #0.mpContext"
+					"text" : "poly~ mp.demoSynth.p 1 args #0.mpContext"
 				}
 
 			}
@@ -310,8 +299,8 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 44.0, 141.302368000000001, 324.0, 22.0 ],
-					"text" : "mp.router.fast #0.mpContext "
+					"patching_rect" : [ 44.0, 141.3023681640625, 324.0, 22.0 ],
+					"text" : "mp.router2 #0.mpContext "
 				}
 
 			}
@@ -420,16 +409,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
-					"order" : 0,
-					"source" : [ "obj-46", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-49", 0 ],
-					"order" : 1,
 					"source" : [ "obj-46", 0 ]
 				}
 

@@ -5860,8 +5860,8 @@
 									"numinlets" : 3,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 50.0, 171.0, 59.0, 22.0 ],
-									"text" : "route 1 0"
+									"patching_rect" : [ 50.0, 171.0, 56.0, 22.0 ],
+									"text" : "route 1 2"
 								}
 
 							}
@@ -5942,6 +5942,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-6", 0 ],
 									"source" : [ "obj-15", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-124", 0 ],
+									"source" : [ "obj-6", 1 ]
 								}
 
 							}
