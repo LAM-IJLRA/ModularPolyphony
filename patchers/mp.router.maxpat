@@ -168,7 +168,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 572.0, 122.0, 44.0, 22.0 ],
+					"patching_rect" : [ 519.0, 122.0, 44.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -10727,8 +10727,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-79", 0 ],
-					"midpoints" : [ 463.5, 316.75, 463.5, 316.75 ],
-					"source" : [ "obj-15", 0 ]
+					"midpoints" : [ 581.5, 316.75, 463.5, 316.75 ],
+					"source" : [ "obj-15", 2 ]
 				}
 
 			}
