@@ -82,5 +82,10 @@
 		"categories" : "component",
 		"description" : "Keys as MP messages."
 	}
+,
+	"mp.mouse" : 	{
+		"categories" : "component",
+		"description" : "mouse as MP messages."
+	}
 
 }
