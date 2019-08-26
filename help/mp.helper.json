@@ -77,5 +77,10 @@
 		"categories" : "component",
 		"description" : "Keys as MP messages."
 	}
+,
+	"mp.keys" : 	{
+		"categories" : "component",
+		"description" : "Keys as MP messages."
+	}
 
 }
