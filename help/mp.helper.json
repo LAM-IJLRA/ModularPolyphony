@@ -72,5 +72,10 @@
 		"categories" : "component",
 		"description" : "Pass only those cursors that had a state 1 (aka pickers)."
 	}
+,
+	"mp.key" : 	{
+		"categories" : "component",
+		"description" : "Keys as MP messages."
+	}
 
 }
