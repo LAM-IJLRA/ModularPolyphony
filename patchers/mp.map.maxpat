@@ -44,7 +44,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 50.0, 202.0, 45.0, 22.0 ],
+					"patching_rect" : [ 50.0, 224.0, 45.0, 22.0 ],
 					"text" : "zl rot 1"
 				}
 
@@ -56,7 +56,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 50.0, 173.0, 215.0, 22.0 ],
+					"patching_rect" : [ 50.0, 195.0, 215.0, 22.0 ],
 					"text" : "zl join"
 				}
 
@@ -89,7 +89,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-15",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -102,7 +102,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-16",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -115,11 +115,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-17",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 121.0, 241.0, 30.0, 30.0 ]
+					"patching_rect" : [ 121.0, 263.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -127,11 +127,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-18",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 50.0, 241.0, 30.0, 30.0 ]
+					"patching_rect" : [ 50.0, 263.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -185,9 +185,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [  ],
-		"autosave" : 0
+ ]
 	}
 
 }
