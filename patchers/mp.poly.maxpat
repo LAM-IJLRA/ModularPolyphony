@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 0,
-			"revision" : 6,
+			"minor" : 1,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -39,7 +39,7 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"comment" : "current polyphony",
+					"comment" : "target",
 					"id" : "obj-15",
 					"index" : 2,
 					"maxclass" : "outlet",
@@ -148,7 +148,7 @@
 			}
 , 			{
 				"box" : 				{
-					"cols" : 1,
+					"cols" : 2,
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -158,7 +158,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "list", "", "", "" ],
 					"patching_rect" : [ 571.0, 256.0, 200.0, 200.0 ],
-					"rows" : 1
+					"rows" : 4
 				}
 
 			}
