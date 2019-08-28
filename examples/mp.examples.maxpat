@@ -56,7 +56,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 317.0, 272.0, 558.0, 490.0 ],
+						"rect" : [ 598.0, 253.0, 558.0, 490.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -83,7 +83,19 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-8",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 245.0, 218.0, 32.0, 22.0 ],
+									"text" : "print"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-16",
 									"maxclass" : "message",
@@ -2008,7 +2020,15 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-4", 1 ],
-									"order" : 1,
+									"order" : 2,
+									"source" : [ "obj-14", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-8", 0 ],
+									"order" : 0,
 									"source" : [ "obj-14", 0 ]
 								}
 
@@ -2016,7 +2036,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-9", 0 ],
-									"order" : 0,
+									"order" : 1,
 									"source" : [ "obj-14", 0 ]
 								}
 
@@ -2129,7 +2149,7 @@
 						"bgcolor" : [ 0.815686, 0.819608, 0.780392, 1.0 ]
 					}
 ,
-					"patching_rect" : [ 35.0, 227.501342999999991, 114.0, 22.0 ],
+					"patching_rect" : [ 35.0, 227.501342999999991, 139.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -2138,7 +2158,7 @@
 						"tags" : ""
 					}
 ,
-					"text" : "p \"1 : simple-demo\""
+					"text" : "p \"0 : ultra simple-demo\""
 				}
 
 			}
@@ -2186,7 +2206,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 398.0, 267.0, 537.0, 523.0 ],
+						"rect" : [ 93.0, 394.0, 537.0, 523.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2214,6 +2234,17 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-7",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 174.0, 327.0, 32.0, 22.0 ],
+									"text" : "print"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-19",
 									"maxclass" : "message",
@@ -6187,7 +6218,15 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-6", 0 ],
-									"order" : 1,
+									"order" : 2,
+									"source" : [ "obj-14", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-7", 0 ],
+									"order" : 0,
 									"source" : [ "obj-14", 0 ]
 								}
 
@@ -6195,7 +6234,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-85", 0 ],
-									"order" : 0,
+									"order" : 1,
 									"source" : [ "obj-14", 0 ]
 								}
 
@@ -12035,13 +12074,12 @@
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"id" : "obj-20",
-													"linecount" : 2,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 184.0, 79.0, 70.0, 35.0 ],
-													"text" : "0 18365 1 8"
+													"text" : "0 9065 1 2"
 												}
 
 											}
@@ -12367,7 +12405,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 105.0, 311.0, 177.0, 22.0 ],
-													"text" : "0 1 9"
+													"text" : "0 1 2"
 												}
 
 											}
@@ -13597,7 +13635,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 108.666663999999997, 347.0, 41.0, 22.0 ],
+													"patching_rect" : [ 108.666663999999997, 342.0, 41.0, 22.0 ],
 													"text" : "zl join"
 												}
 
@@ -13612,7 +13650,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 332.0, 55.0, 142.0, 22.0 ],
-													"text" : "0 18365 1 8"
+													"text" : "0 9065 1 2"
 												}
 
 											}
@@ -49011,7 +49049,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 597.0, 558.0, 490.0 ],
+						"rect" : [ 34.0, 597.0, 558.0, 490.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -49038,7 +49076,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-16",
@@ -53692,20 +53729,20 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-11::obj-87" : [ "live.gain~[12]", "live.gain~", 0 ],
+			"obj-19::obj-87" : [ "live.gain~[16]", "live.gain~", 0 ],
+			"obj-1::obj-87" : [ "live.gain~[8]", "live.gain~", 0 ],
+			"obj-2::obj-43" : [ "live.gain~[6]", "live.gain~", 0 ],
+			"obj-48::obj-43" : [ "live.gain~[3]", "live.gain~", 0 ],
 			"obj-6::obj-43" : [ "live.gain~[5]", "live.gain~", 0 ],
+			"obj-11::obj-87" : [ "live.gain~[12]", "live.gain~", 0 ],
+			"obj-12::obj-14" : [ "live.gain~[10]", "live.gain~", 0 ],
+			"obj-15::obj-87" : [ "live.gain~[13]", "live.gain~", 0 ],
+			"obj-7::obj-43" : [ "live.gain~[14]", "live.gain~", 0 ],
+			"obj-3::obj-87" : [ "live.gain~[11]", "live.gain~", 0 ],
 			"obj-8::obj-87" : [ "live.gain~[15]", "live.gain~", 0 ],
 			"obj-20::obj-87" : [ "live.gain~[17]", "live.gain~", 0 ],
-			"obj-15::obj-87" : [ "live.gain~[13]", "live.gain~", 0 ],
-			"obj-48::obj-43" : [ "live.gain~[3]", "live.gain~", 0 ],
-			"obj-2::obj-43" : [ "live.gain~[6]", "live.gain~", 0 ],
-			"obj-3::obj-87" : [ "live.gain~[11]", "live.gain~", 0 ],
-			"obj-12::obj-14" : [ "live.gain~[10]", "live.gain~", 0 ],
 			"obj-5::obj-43" : [ "live.gain~[7]", "live.gain~", 0 ],
 			"obj-50::obj-87" : [ "live.gain~[2]", "live.gain~", 0 ],
-			"obj-1::obj-87" : [ "live.gain~[8]", "live.gain~", 0 ],
-			"obj-7::obj-43" : [ "live.gain~[14]", "live.gain~", 0 ],
-			"obj-19::obj-87" : [ "live.gain~[16]", "live.gain~", 0 ],
 			"parameterbanks" : 			{
 
 			}
