@@ -87,5 +87,10 @@
 		"categories" : "component",
 		"description" : "mouse as MP messages."
 	}
+,
+	"mp.+" : 	{
+		"categories" : "component",
+		"description" : "Addition as an mp-block."
+	}
 
 }
