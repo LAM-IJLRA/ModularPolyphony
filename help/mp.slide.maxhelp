@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 0,
-			"revision" : 6,
+			"minor" : 1,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -39,50 +39,63 @@
 		"subpatcher_template" : "mp.HelpPatcher",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-24",
-					"maxclass" : "comment",
+					"id" : "obj-15",
+					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 250.0, 114.0, 270.0, 20.0 ],
-					"text" : "set the slide value dynamically with the MP-event"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-13",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 362.25, 130.0, 53.0, 20.0 ],
-					"presentation_linecount" : 2,
-					"text" : "slide_up"
+					"patching_rect" : [ 435.0, 375.0, 87.0, 22.0 ],
+					"text" : "print more-456"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"format" : 6,
-					"id" : "obj-19",
+					"id" : "obj-13",
 					"maxclass" : "flonum",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 362.25, 154.0, 50.0, 22.0 ]
+					"patching_rect" : [ 378.75, 375.0, 50.0, 22.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bubble" : 1,
-					"id" : "obj-12",
+					"format" : 6,
+					"id" : "obj-10",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 330.5, 375.0, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-7",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 625.0, 185.0, 165.0, 24.0 ],
+					"patching_rect" : [ 382.0, 130.0, 38.0, 20.0 ],
 					"presentation_linecount" : 2,
-					"text" : "setting slide value globally"
+					"text" : "offset"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"format" : 6,
+					"id" : "obj-2",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 369.0, 154.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -96,7 +109,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 503.5, 250.0, 175.0, 52.0 ],
-					"presentation_linecount" : 3,
 					"text" : "do not forget to use \"target 0\" to address all voices"
 				}
 
@@ -145,7 +157,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 310.875, 130.0, 37.0, 20.0 ],
-					"text" : "val"
+					"text" : "pitch"
 				}
 
 			}
@@ -167,7 +179,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 172.0, 130.0, 37.0, 20.0 ],
-					"text" : "val"
+					"text" : "pitch"
 				}
 
 			}
@@ -193,8 +205,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 0,
-							"revision" : 6,
+							"minor" : 1,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -410,8 +422,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 0,
-							"revision" : 6,
+							"minor" : 1,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -688,25 +700,13 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-45",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 342.0, 375.0, 104.0, 22.0 ],
-					"text" : "val 1574.544596"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-46",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"numinlets" : 4,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 282.25, 343.0, 163.75, 22.0 ],
-					"text" : "route state"
+					"text" : "route state pitch offset"
 				}
 
 			}
@@ -717,8 +717,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 246.5, 215.0, 231.0, 22.0 ],
-					"text" : "456 slide_up $3, 456 val $2, 456 state $1"
+					"patching_rect" : [ 246.5, 215.0, 222.0, 22.0 ],
+					"text" : "456 pitch $2, 456 offset $3, 456 state $1"
 				}
 
 			}
@@ -755,7 +755,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 150.0, 375.0, 104.0, 22.0 ],
-					"text" : "val 877.34464"
+					"text" : "pitch 13."
 				}
 
 			}
@@ -790,8 +790,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 90.25, 215.0, 139.0, 22.0 ],
-					"text" : "123 val $2, 123 state $1"
+					"patching_rect" : [ 90.25, 215.0, 147.0, 22.0 ],
+					"text" : "123 pitch $2, 123 state $1"
 				}
 
 			}
@@ -827,14 +827,14 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 90.25, 271.0, 291.0, 22.0 ],
-					"text" : "mp.slide 2 @slide_up 100 @slide_down 10"
+					"patching_rect" : [ 90.25, 271.0, 194.0, 22.0 ],
+					"text" : "mp.+ @ins pitch offset @outs pitch"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "mp.slide", "@description", "Slide object as an mp-block.", "@categories", "component" ],
+					"args" : [ "mp.+", "@description", "Addition as an mp-block.", "@categories", "component" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -884,7 +884,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-56", 2 ],
-					"source" : [ "obj-19", 0 ]
+					"source" : [ "obj-2", 0 ]
 				}
 
 			}
@@ -953,8 +953,22 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-45", 1 ],
+					"destination" : [ "obj-10", 0 ],
 					"source" : [ "obj-46", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-13", 0 ],
+					"source" : [ "obj-46", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-15", 0 ],
+					"source" : [ "obj-46", 3 ]
 				}
 
 			}
@@ -1023,14 +1037,14 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mp.slide.maxpat",
+				"name" : "mp.+.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mp.slide.p.maxpat",
+				"name" : "mp.+.p.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/ModularPolyphony/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
