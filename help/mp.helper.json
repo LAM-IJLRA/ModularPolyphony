@@ -92,5 +92,10 @@
 		"categories" : "component",
 		"description" : "Addition as an mp-block."
 	}
+,
+	"mp.makenote" : 	{
+		"categories" : "utilities",
+		"description" : "Transform classic MIDI note into  MP messages"
+	}
 
 }
