@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 0,
-			"revision" : 0,
+			"minor" : 1,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 427.0, 79.0, 458.0, 554.0 ],
+		"rect" : [ 427.0, 79.0, 806.0, 365.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -45,7 +45,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 131.25, 232.0, 253.0, 22.0 ],
-					"presentation_linecount" : 2,
 					"text" : "789 truc 12, 789 machin chouette, 789 state 0"
 				}
 
@@ -96,7 +95,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 111.25, 187.0, 197.0, 22.0 ],
-					"presentation_linecount" : 2,
 					"text" : "789 val $1, 789 toto $1, 789 state 2"
 				}
 
