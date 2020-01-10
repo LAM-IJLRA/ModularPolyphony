@@ -97,5 +97,15 @@
 		"categories" : "utilities",
 		"description" : "Transform classic MIDI note into  MP messages"
 	}
+,
+	"mp.map" : 	{
+		"categories" : "utilities",
+		"description" : "Little uility for mapping."
+	}
+,
+	"mp.TUIO.in" : 	{
+		"categories" : "utilities",
+		"description" : "Receive TUIO data and format them as MP."
+	}
 
 }
