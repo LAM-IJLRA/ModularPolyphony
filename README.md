@@ -2,7 +2,7 @@
 
 This library is meant for polyphonic patching in Max (® Cycling74).
 
-This code is under GNU-LGPL licence which can be read in the file named COPYING.
+This code is under GNU-LGPL licence which can be read in the file named LICENCE.md.
 
 This is all draft at the moment.
 Use at your own risk and curiosity.
