@@ -7,7 +7,7 @@
 	"extensible" : 0,
 	"homepatcher" : "ModularPolyphony.overview.maxpat",
 	"max_version_max" : "none",
-	"max_version_min" : "none",
+	"max_version_min" : "8.6",
 	"name" : "ModularPolyphony",
 	"os" : 	{
 		"macintosh" : 		{
